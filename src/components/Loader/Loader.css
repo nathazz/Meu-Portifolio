@@ -1,0 +1,19 @@
+.container {
+   
+    height: 55vh;
+    transition: opacity 0.5s ease;
+}
+
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.loading {
+    opacity: 0;
+  }

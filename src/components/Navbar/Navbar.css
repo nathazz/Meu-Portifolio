@@ -10,9 +10,20 @@
     font-size: 18px;
     gap: 2em;
     margin-right: 1em;
+    cursor: pointer;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
     justify-content: end;
-   
+ 
+}
+
+.li{
+    transition: 0.4s;
+}
+
+.li:hover{
+    transition: 0.4s;
+    color:var(--blue);
+    
 }

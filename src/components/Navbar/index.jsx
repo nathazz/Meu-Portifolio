@@ -5,9 +5,9 @@ const Navbar = () => {
 
         <nav className="navbar">
             <ul className="ul">
-            <li>Home</li>
-            <li>Sobre mim</li>
-            <li>Contato</li>
+            <li className="li">Home</li>
+            <li className="li">Sobre mim</li>
+            <li className="li">Contato</li>
             </ul>
         </nav>
     )
