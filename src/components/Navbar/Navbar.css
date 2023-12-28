@@ -1,0 +1,18 @@
+.navbar{
+    background-color: var(--DivOn);
+    padding: 1.5em ;
+}
+
+.ul {
+    color: var(--white);
+    display: flex;
+    font-family: Poppins;
+    font-size: 18px;
+    gap: 2em;
+    margin-right: 1em;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    justify-content: end;
+   
+}
