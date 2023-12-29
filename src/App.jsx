@@ -8,6 +8,7 @@ const App = () => {
     <div>
      <Navbar/>
      <Home/>
+     <h1 className="h-history">Um pouco da minha Historia:</h1>
      <History/>
 
      </div>

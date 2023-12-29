@@ -1,0 +1,39 @@
+.card-l{
+    color: var(--white);
+    width: 30%;
+    margin: 5em 0 5em; 
+    border-radius: 14px;
+    background-color: var(--CardTwo);
+    padding: 3em; 
+    box-sizing: border-box; 
+    flex-wrap: wrap;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.span_h{
+    color: #FFF; 
+    font-weight: 400;
+    line-height: normal;
+    color: var(--pink);
+}
+
+.h_l{
+    font-size: 13px; 
+
+    white-space: nowrap;
+ 
+}
+
+
+.img_l{
+    cursor: pointer;
+    background-color: var(--CardOn);
+    border-radius: 5%; 
+    margin: 1em 1.3em;
+    transition: 0.5s;
+}
+
+.img_l:hover{
+    transform: scale(1.2); 
+}

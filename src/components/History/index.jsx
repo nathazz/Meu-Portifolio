@@ -1,3 +1,5 @@
+import CardL from "../CardLinguagens"
+import CardQi from "../CardQI"
 import "./History.css"
 
 const History = () => {
@@ -5,8 +7,11 @@ const History = () => {
 
   return(
     <section className="section-history">
-        <h1 className="h-history">Um pouco da minha Historia:</h1>
+        <CardQi/>
+        <CardL/>
+
     </section>
+
   )
 
 }
