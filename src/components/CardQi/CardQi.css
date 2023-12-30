@@ -1,7 +1,7 @@
 .div_qi {
     color: var(--white);
     width: 45%;
-    margin: 5em 0; /* Alterei para 'auto' para centralizar a div horizontalmente */
+    margin: 5em 0 ; 
     border-radius: 14px;
     background-color: var(--CardTwo);
     padding: 4em; 

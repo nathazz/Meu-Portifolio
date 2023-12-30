@@ -1,0 +1,14 @@
+.footer{
+    padding: 0.2em 0;
+    background-color: var(--footer);
+}
+
+.h_footer{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 13px;
+    margin: 1em;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
