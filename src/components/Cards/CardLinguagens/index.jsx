@@ -6,8 +6,7 @@ const CardL = () => {
 
     <div className="card-l">
       <h1 className="h_l">&lt;<span className="span_h">h1</span>&gt;
-      Ferramentas que aprendi com o ensino:&lt;
-      <span className="span_h">/h1</span>&gt;</h1>
+      Ferramentas que aprendi com o ensino:&lt;/<span className="span_h">h1</span>&gt;</h1>
 
 
     <div className="div_img">

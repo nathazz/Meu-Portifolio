@@ -1,14 +1,16 @@
-import CardCal from "../CardCaldeira"
-import CardL from "../CardLinguagens"
-import CardQi from "../CardQI"
+import CardCal from "../../Cards/CardCaldeira"
+import CardL from "../../Cards/CardLinguagens"
+import CardQi from "../../Cards/CardQi"
 import "./History.css"
+
 
 const History = () => {
 
 
   return(
     <section className="section-history">
-        <CardQi/>
+      
+        <CardQi/> 
         <CardL/>
         <CardCal/>
 

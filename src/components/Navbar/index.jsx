@@ -6,7 +6,7 @@ const Navbar = () => {
         <nav className="navbar">
             <ul className="ul">
             <li className="li">Home</li>
-            <li className="li">Sobre mim</li>
+            <li className="li">História</li>
             <li className="li">Contato</li>
             </ul>
         </nav>

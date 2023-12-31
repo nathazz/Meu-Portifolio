@@ -1,9 +1,10 @@
 
 import { useState } from "react"
-import CardHome from "../CardHome"
+
 import "./Home.css"
 import { useEffect } from "react"
-import Loader from "../Loader"
+import Loader from "../../Loaders/Loader"
+import CardHome from "../../Cards/CardHome"
 
 const Home = () => {
 
@@ -16,7 +17,7 @@ const Home = () => {
     return(
         <section className="section_home">
         <div className={`container ${loading ? 'loading' : ''}`}>
-              {loading ? <Loader /> : <CardHome />}
+              {loading ? <Loader /> : <CardHome/>}
         </div>
             </section>
     )
