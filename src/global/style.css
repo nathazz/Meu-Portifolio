@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap');
 
-
+html {
+	scroll-behavior: smooth;
+  }
+  
 :root{
     --DivOn: #282C34;
     --CardOn: #393E4A;
@@ -11,6 +14,7 @@
     --orange: #FB7C36;
     --CardTwo: #282A36;
     --pink: #FF79C6;
+	--font: Poppins, sans-serif;
     --white: #FFFF;
     --DivThree: #1F1F1F;
     --blue: #3CA1FF;

@@ -5,7 +5,7 @@
 
 .h_footer{
     color: #FFF;
-    font-family: Poppins;
+    font-family: var(--font);
     font-size: 13px;
     margin: 1em;
     font-style: normal;

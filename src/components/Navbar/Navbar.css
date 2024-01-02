@@ -1,12 +1,20 @@
 .navbar{
-    background-color: var(--DivOn);
-    padding: 1.5em ;
+    background-color: var(--DivThree);
+    padding: 1.1em ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 1000;
 }
+
+
 
 .ul {
     color: var(--white);
     display: flex;
-    font-family: Poppins;
+    font-family: var(--font);
     font-size: 18px;
     gap: 2em;
     margin-right: 1em;
@@ -19,6 +27,9 @@
 }
 
 .li{
+    display: block;
+    color: var(--white);
+    text-decoration: none;
     transition: 0.4s;
 }
 

@@ -4,10 +4,10 @@
     margin: 5em 0 5em ; 
     border-radius: 14px;
     background-color: var(--CardTwo);
-    padding: 3em; 
+    padding: 2.5em; 
     box-sizing: border-box; 
     flex-wrap: wrap;
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font);
     
 }
 

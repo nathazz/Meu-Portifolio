@@ -1,6 +1,6 @@
 .div_qi {
     color: var(--white);
-    width: 45%;
+    width: 40%;
     margin: 5em 0 ; 
     border-radius: 14px;
     background-color: var(--CardTwo);
@@ -10,7 +10,7 @@
 
 .p {
     color: #FFFDFF;
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font);
     font-style: normal;
     font-weight: 400;
     line-height: normal;

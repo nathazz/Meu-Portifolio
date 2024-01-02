@@ -1,42 +1,69 @@
 .info {
     background-color: var(--DivThree);
-    padding: 5em;
-    margin: 10em 0 0;
+    padding: 6em;
+    margin: 12em 0 0;
 }
 
 .div_info {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    gap: 3em;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
+
+
 .div_info img {
-    margin-right: 5em; 
-    transition: 0.5s;
+    margin-right: 4em; 
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .div_info img:hover{
-    transform: scale(1.2); 
+    transform: scale(1.1); 
+}
+
+.div_info h2,h3,h4{
+    color: #FFF;
+    font-family: var(--font);
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.git, .linkedin{
+    margin: 0 0 0 1em ;
+}
+
+.zap{
+    margin: 0 0 0 0.3em ;
+}
+
+.email{
+    margin: 0 0 0 1.4em ;
 }
 
 .info h1 {
     text-align: start;
     color: #FFF;
-    font-family: Poppins;
+    font-family: var(--font);
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
 }
 
-.p_info{
-    color: #FFF;
-    font-family: Poppins;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+
+.img_contato{
+    margin: 0.8em 0 0 ;
+}
+
+.p-info{
+  font-size: 14px;
+  font-family: var(--font);
+  color: var(--white);
+  font-style: normal;
+  font-weight: 600; 
+  line-height:initial;
 }
 

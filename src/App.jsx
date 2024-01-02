@@ -5,13 +5,14 @@ import Info from "./components/sections/Info"
 import Navbar from "./components/Navbar"
 
 
+
 const App = () => {
   
   return (
     <div>
      <Navbar/>
      <Home/>
-     <h1 className="h-history">Um pouco da minha Historia:</h1>
+     <h1 id="historia" className="h-history">Um pouco da minha Historia:</h1>
      <History/>
      <Info/>
      <Footer/>
