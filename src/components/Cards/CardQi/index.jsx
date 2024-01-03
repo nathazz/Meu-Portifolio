@@ -1,14 +1,16 @@
+import { useTranslation } from "react-i18next"
 import "./CardQi.css"
 
 const CardQi = () =>{
 
+  const [ t ] = useTranslation()
+
    return(
+
     <div  className="div_qi">
         <p className="p">
        &lt;<span className="span_p">p</span>&gt; <br/>
-         Comecei meus estudos na <span className="span_qi">QI Faculdade & Escola Técnica</span>,
-         e foi lá que tive meu primeiro contato com a programação, 
-         o que despertou meu interesse e me fez gostar bastante da área.<br/>
+       {t("text")} <span className="span_qi">QI Faculdade & Escola Técnica</span>, {t("Ptext")}<br/>
        &lt;/<span className="span_p">p</span>&gt;
         </p>
     </div>

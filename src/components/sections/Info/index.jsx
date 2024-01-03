@@ -1,33 +1,37 @@
 import { useState } from "react"
 import "./Info.css"
+import { useTranslation } from "react-i18next"
+
 
 
 const Info = () => {
 
-    // const [email, setEmail] = useState("")
+    const [ t ] = useTranslation()
 
-    // const mudarE = () =>{
-    //     setEmail("nathansg907@gmail.com")
-    // }
+    const [email, setEmail] = useState("")
 
-    // const deletarE = () =>{
-    //     setEmail('')
-    // }
+    const mudarE = () =>{
+        setEmail("nathansg907@gmail.com")
+    }
 
-    // const alternarE = () => {
-    //     if (email === "") {
-    //       mudarE();
-    //     } else {
-    //       deletarE();
-    //     }
-    //   };
+    const deletarE = () =>{
+        setEmail('')
+    }
 
-    const [openModal, setModal] = useState (false)
+    const alternarE = () => {
+        if (email === "") {
+          mudarE();
+        } else {
+          deletarE();
+        }
+      };
+
+
       
      return(
         <section className="info" id="contato">
             <div className="d_h1">
-            <h1>Contato:</h1>
+            <h1>{t("contact")}:</h1>
             </div>
          <div className="div_info">
             
@@ -43,14 +47,14 @@ const Info = () => {
 
             <div>
                 <h3 className="zap">WhatsApp</h3>
-                <a aria-label="Olá, tudo bem? espero que sim!" target="_blank" href="https://wa.me/51993919197"><img className="img_contato"  src="/svg/contato/zap.svg" alt="icon whatsapp" /></a>
+                <a aria-label="Olá, tudo bem? espero que sim!" target="_blank" href="https://wa.me/5193919197?text=opa,%20tudo%20bem?"><img className="img_contato"  src="/svg/contato/zap.svg" alt="icon whatsapp" /></a>
             </div>
             <div>
            
             <div>
                      <h4 className="email">Email</h4>
-                    <img onClick={() => setModal(true)} src="/svg/contato/email.svg" className="img_contato" alt="icon email/envelope" />
-                    
+                     <img onClick={alternarE}  src="/svg/contato/email.svg" className="img_contato" alt="icon email/envelope" />
+                     <p className="p-info"   style={{borderBottom: email === "nathansg907@gmail.com" ? "2px solid #00D8FF" : ""}}>{email}</p>
             </div>
              
             </div>
