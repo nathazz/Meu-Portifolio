@@ -7,11 +7,16 @@
 }
 
 .h-history{
-    color: #000;
+    color: black;
     font-family: var(--font);
     font-size: 25px;
-    margin: 5em 0 0 4em ;
+    display: inline;
+    border-bottom: 3px solid #0f2853;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+.div_h{
+    margin: 5em 0 0 12em ;
 }

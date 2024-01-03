@@ -6,7 +6,7 @@ const CardHome = () =>{
 
       <div className="card_home">
       <div className="card_content">
-        <h1>Opa, seja bem vindo, me chamo <span className="r">Nathan</span></h1>
+        <h1>Opa, seja bem vindo, me chamo <span className="r">Nathan</span>💻</h1>
         <p>Sou desenvolvedor fullstack e Atualmente estou focado em estudar <span className="r">React</span>, <span className="n">Node.js</span> e  
          <span className="j"> JavaScript</span>, mas estou sempre aberto a novos desafios, tanto quanto conhecer outras ferramentas!
         </p>

@@ -4,28 +4,31 @@ import "./Info.css"
 
 const Info = () => {
 
-    const [email, setEmail] = useState("")
+    // const [email, setEmail] = useState("")
 
-    const mudarE = () =>{
-        setEmail("nathansg907@gmail.com")
-    }
+    // const mudarE = () =>{
+    //     setEmail("nathansg907@gmail.com")
+    // }
 
-    const deletarE = () =>{
-        setEmail('')
-    }
+    // const deletarE = () =>{
+    //     setEmail('')
+    // }
 
-    const alternarE = () => {
-        if (email === "") {
-          mudarE();
-        } else {
-          deletarE();
-        }
-      };
+    // const alternarE = () => {
+    //     if (email === "") {
+    //       mudarE();
+    //     } else {
+    //       deletarE();
+    //     }
+    //   };
 
-
+    const [openModal, setModal] = useState (false)
+      
      return(
         <section className="info" id="contato">
+            <div className="d_h1">
             <h1>Contato:</h1>
+            </div>
          <div className="div_info">
             
             <div>
@@ -46,9 +49,8 @@ const Info = () => {
            
             <div>
                      <h4 className="email">Email</h4>
-                    <img onClick={alternarE}  src="/svg/contato/email.svg" className="img_contato" alt="icon email/envelope" />
-                     <p className="p-info" style={{borderBottom: email === "nathansg907@gmail.com" ? "2px solid #27461f" : ""}}>{email}</p> 
-                
+                    <img onClick={() => setModal(true)} src="/svg/contato/email.svg" className="img_contato" alt="icon email/envelope" />
+                    
             </div>
              
             </div>
