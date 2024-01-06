@@ -7,7 +7,8 @@ const LanguageBtn = () => {
   const languageOptions = [
     { value: "ptBR", label: "Português(BR)" }, 
     { value: "en", label: "English" },
-    { value: "esp", label: "Español" }
+    { value: "esp", label: "Español" },
+    { value: "fr", label:"Français"}
   ];
 
   const handleLanguageChange = (selectedValue) => {
