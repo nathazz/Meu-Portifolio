@@ -1,4 +1,5 @@
 .section_home{
     background-color: var(--DivOn);
-    padding: 6em ;
+    background-image: url("/svg/wallpaperTrhee.svg");
+    padding: 10em ;
 }

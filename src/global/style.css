@@ -3,17 +3,23 @@
 html {
 	scroll-behavior: smooth;
   }
+
+  body{
+	background-color: #D2D2D2;
+  }
   
 :root{
-    --DivOn: #282C34;
+    --DivOn: #222831;
     --CardOn: #393E4A;
 	--footer: #2C2C2C;
+	--nav: #313A46;
     --red: #C53C3C;
     --yellow: #FFFF00;
     --green: #59B820;
     --orange: #FB7C36;
     --CardTwo: #282A36;
     --pink: #FF79C6;
+	--blueT: #3893A4;
 	--font: Poppins, sans-serif;
     --white: #FFFF;
     --DivThree: #1F1F1F;

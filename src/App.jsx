@@ -14,10 +14,7 @@ const App = () => {
     <div>
      <Navbar/>
      <Home/>
-     <div  className="div_h">
-     <h1 id="historia" className="h-history">{t("titleTwo")}:</h1>
-     </div>
-     
+    
      <History/>
    
      <Info/>

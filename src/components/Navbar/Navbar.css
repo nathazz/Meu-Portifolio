@@ -1,5 +1,5 @@
 .navbar{
-    background-color:#24272D;
+    background-color:var(--nav);
     padding: 1.1em ;
     position: fixed;
     top: 0;
@@ -35,6 +35,6 @@
 
 .li:hover{
     transition: 0.4s;
-    color:#689ed0;
+    color:var(--blueT);
     
 }

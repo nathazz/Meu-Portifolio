@@ -4,7 +4,7 @@ import { useState } from "react"
 import "./Home.css"
 import { useEffect } from "react"
 import Loader from "../../Loaders/Loader"
-import CardHome from "../../Cards/CardHome"
+import CardHome from "../../CardHome/index.jsx"
 
 const Home = () => {
 

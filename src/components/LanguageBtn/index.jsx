@@ -1,7 +1,4 @@
 import { useTranslation } from 'react-i18next';
-import br from "./imgs/brasil.svg";
-import usa from "./imgs/usa.svg";
-import esp from "./imgs/spain.svg";
 import "./Language.css";
 
 const LanguageBtn = () => {
