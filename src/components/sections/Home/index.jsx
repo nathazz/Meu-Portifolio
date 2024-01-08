@@ -3,7 +3,7 @@ import { useState } from "react"
 
 import "./Home.css"
 import { useEffect } from "react"
-import Loader from "../../Loaders/Loader"
+import Loader from "../../Loader/index.jsx"
 import CardHome from "../../CardHome/index.jsx"
 
 const Home = () => {

@@ -1,9 +1,8 @@
 .container {
-   
-    height: 55vh;
+
+    height:  55vh;
     transition: opacity 0.5s ease;
 }
-
 
 @keyframes spin {
     0% {
@@ -16,4 +15,4 @@
 
 .loading {
     opacity: 0;
-  }
+}

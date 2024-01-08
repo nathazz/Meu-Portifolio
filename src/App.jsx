@@ -3,12 +3,12 @@ import History from "./components/sections/History"
 import Home from "./components/sections/Home"
 import Info from "./components/sections/Info"
 import Navbar from "./components/Navbar"
-import { useTranslation } from "react-i18next"
+import Project from "./components/sections/Project"
 
 
 
 const App = () => {
-  const [t] = useTranslation()
+  
   
   return (
     <div>
@@ -16,8 +16,9 @@ const App = () => {
      <Home/>
     
      <History/>
-   
+     <Project />
      <Info/>
+   
      <Footer/>
 
      </div>

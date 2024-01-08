@@ -1,0 +1,61 @@
+
+
+.card_med{
+    padding: 1em;
+    width: 28%;
+    height: 24em;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    background-color: #D9D9D9;
+}
+
+
+.p_med{
+    margin: 2em;
+    font-size: 14px;
+    color: #000;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.h_med{
+    text-align: center;
+    margin-bottom: 1em;
+    color: #002B51;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.div-imagem{
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+
+.div_btn a {
+    text-decoration: none;
+}
+.btn_med{
+   background-color: #002B51;
+   border: none;
+   cursor: pointer;
+   margin:  0 0 0 2em;
+   display: flex;
+   font-weight: 500;
+   font-family: Roboto, sans-serif;
+   align-items: center;
+   color: white;
+   border-radius: 15px;
+   padding: 1.4em;
+   transition: 0.5s;
+}
+
+.btn_med:hover{
+    transition: 0.5s;
+    background-color: #07467c;
+}
