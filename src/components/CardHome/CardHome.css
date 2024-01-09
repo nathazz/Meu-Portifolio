@@ -1,11 +1,11 @@
 .card_home {
   border-radius: 15px;
   display: flex;
-  margin: 3em;
+  margin: 1.5em;
   align-items: center;
   background: #313946c6;
-  width: 70%;
-  height: 25em;
+  width: 75%;
+  height: 23em;
   justify-content: center;
 }
 

@@ -1,5 +1,25 @@
 .section_project {
     background-color: var(--CardProj);
-    padding: 8em ;
+    padding: 8em;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
 
+.h_project{
+    color: #FFF;
+    margin-bottom: 4em;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: left; 
+}
+
+.cards_container {
+    display: flex;
+    justify-content: space-around; 
+    width: 100%; 
+    gap: 5em;
 }

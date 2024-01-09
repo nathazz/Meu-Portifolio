@@ -19,9 +19,10 @@ const CardMed = () => {
          <div className="d_p">
                 <p className="p_med">
                         É um app Android desenvolvido no Android Studio com Kotlin, focado em auxiliar usuários a lembrarem-se de tomar medicamentos corretamente. 
-                        Possui funcionalidades CRUD em um banco de dados local para gerenciamento eficiente das informações sobre medicamentos
+                        Possui funcionalidades CRUD em um banco de dados local.
                 </p>
          </div>
+         
           <div className="div_btn">
           <a  href="https://github.com/nathazz/MedTime" target="_blank"><button type="submit" className="btn_med"><FaGithub size={20} style={{marginRight:"1em"}} />Repositório</button></a>
           </div>

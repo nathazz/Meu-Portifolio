@@ -15,7 +15,9 @@ const Navbar = () => {
          <LanguageBtn/>
            <a  className="li"  href="#home"><li>Home</li></a>
            <a  className="li"  href="#historia"><li >{t("history")}</li></a>
+            <a className="li"href="#project">Projetos</a>
            <a  className="li" href="#contato"><li>{t("contact")}</li></a>
+          
         </ul>
         </nav>
     )

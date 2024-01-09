@@ -1,0 +1,9 @@
+.btn_p{
+    background-color: var(--blueC);
+    transition: 0.5s;
+}
+
+.btn_p:hover{
+    background-color:var(--blueT) ;
+    transition: 0.5s;
+}

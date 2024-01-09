@@ -1,0 +1,13 @@
+
+.h_t{
+    color: black;
+}
+
+.btn_t{
+    background-color: black;
+    transition: 0.5s;
+}
+.btn_t:hover{
+    transition: 0.5s;
+    background-color: rgb(32, 32, 32);
+}

@@ -11,8 +11,9 @@
 
 
 .p_med{
-    margin: 2em;
-    font-size: 14px;
+
+    margin: 1.2em;
+    font-size: 15px;
     color: #000;
     font-family: Roboto, sans-serif;
     font-style: normal;
@@ -22,7 +23,7 @@
 
 .h_med{
     text-align: center;
-    margin-bottom: 1em;
+    margin-bottom: 1.4em;
     color: #002B51;
     font-family: Roboto, sans-serif;
     font-style: normal;
@@ -44,14 +45,14 @@
    background-color: #002B51;
    border: none;
    cursor: pointer;
-   margin:  0 0 0 2em;
+   margin:  0 0 0 1em;
    display: flex;
    font-weight: 500;
    font-family: Roboto, sans-serif;
    align-items: center;
    color: white;
    border-radius: 15px;
-   padding: 1.4em;
+   padding: 1.3em;
    transition: 0.5s;
 }
 
@@ -59,3 +60,4 @@
     transition: 0.5s;
     background-color: #07467c;
 }
+
