@@ -1,10 +1,13 @@
+import { useTranslation } from "react-i18next";
 import "./Cards.css"
 import { FaGithub } from "react-icons/fa";
 
 const CardMed = () => {
+
+   const [ t ] = useTranslation()
+
+
     return (
-
-
             
          <div className="card_med">
 
@@ -17,10 +20,7 @@ const CardMed = () => {
             </div>
            
          <div className="d_p">
-                <p className="p_med">
-                        É um app Android desenvolvido no Android Studio com Kotlin, focado em auxiliar usuários a lembrarem-se de tomar medicamentos corretamente. 
-                        Possui funcionalidades CRUD em um banco de dados local.
-                </p>
+                <p className="p_med">{t("textCard_one")}</p>
          </div>
          
           <div className="div_btn">

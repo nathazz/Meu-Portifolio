@@ -8,9 +8,10 @@
       "titleTwo":"sobre mí",
       "contact":"Contacto",
       "history":"Historia",
-      "text":"Comencé mis estudios en QI Faculdade & Escola Técnica, y fue allí donde tuve mi primer contacto con la programación, lo que despertó mi interés y me hizo disfrutar mucho del área. Tuve la oportunidad de participar en el programa de nueva generación del Instituto Caldeira, donde amplié mis estudios en JS/Java.  Actualmente soy full-stack developer y busco mi primera experiencia en el mercado laboral."
-
-
+      "text":"Comencé mis estudios en QI Faculdade & Escola Técnica, y fue allí donde tuve mi primer contacto con la programación, lo que despertó mi interés y me hizo disfrutar mucho del área. Tuve la oportunidad de participar en el programa de nueva generación del Instituto Caldeira, donde amplié mis estudios en JS/Java.  Actualmente soy full-stack developer y busco mi primera experiencia en el mercado laboral.",
+      "textCard_one": "Es una aplicación para Android desarrollada en Android Studio con Kotlin, enfocada en ayudar a los usuarios a recordar tomar los medicamentos correctamente. Tiene funcionalidades CRUD sobre una base de datos local.",
+      "textCard_two": "es una aplicación que fue desarrollada para la disciplina Desarrollo de Aplicaciones II, utilizando el lenguaje Dart y el framework Flutter. El propósito de este proyecto es ayudar a los usuarios a encontrar oportunidades laborales en su región.",
+      "textCard_trhee": "Desarrollé un proyecto simple usando el framework React, integrado con la biblioteca I18n para cambio dinámico de idioma. El proyecto soporta inglés, francés, portugués (BR) y español."
       }
 }
 

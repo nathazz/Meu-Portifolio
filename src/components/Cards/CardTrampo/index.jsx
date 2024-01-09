@@ -1,8 +1,11 @@
+import { useTranslation } from "react-i18next";
 import "./CardT.css"
 import { FaGithub } from "react-icons/fa";
 
 
 const CardTrampo = () => {
+
+    const [ t ] = useTranslation()
 
     return(
               
@@ -17,9 +20,7 @@ const CardTrampo = () => {
            </div>
           
         <div className="d_p">
-               <p className="p_med">
-               é um aplicativo que foi desenvolvido para a disciplina de Desenvolvimento de Aplicativos II, utilizando a linguagem Dart e o framework Flutter. O objetivo deste projeto é ajudar os usuários a encontrar oportunidades de trabalho em sua região.
-               </p>
+               <p className="p_med">{t("textCard_two")}</p>
         </div>
         
          <div className="div_btn">

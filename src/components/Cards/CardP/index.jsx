@@ -1,8 +1,11 @@
+import { useTranslation } from "react-i18next";
 import "./CardP.css"
 import { FaGithub } from "react-icons/fa";
 
 
 const CardP = () => {
+
+    const [ t ] = useTranslation()
 
     return(
               
@@ -17,13 +20,11 @@ const CardP = () => {
            </div>
           
         <div className="d_p">
-               <p className="p_med">
-               Desenvolvi um projeto simples utilizando o framework React, integrado com a biblioteca I18n para a troca dinâmica de idiomas. O projeto suporta os idiomas inglês, francês, português (BR) e espanhol
-               </p>
+               <p className="p_med">{t("textCard_trhee")}</p>
         </div>
         
          <div className="div_btn">
-         <a  href="https://github.com/nathazz/p" target="_blank"><button type="submit" className="btn_med btn_t btn_p"><FaGithub size={20} style={{marginRight:"1em"}} />Repositório</button></a>
+         <a  href="https://github.com/nathazz/p" target="_blank"><button type="submit" className="btn_med btn_p"><FaGithub size={20} style={{marginRight:"1em"}} />Repositório</button></a>
          </div>
         
 

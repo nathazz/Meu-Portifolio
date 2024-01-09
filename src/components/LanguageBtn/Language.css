@@ -1,12 +1,13 @@
 
   .select-language {
     font-size: 14px;
-    padding: 0.2em;
+    padding: 0.1em;
+
     color: var(--white);
     background-color: rgb(31, 36, 41);
     font-family: var(--font);
     font-weight: 200;
-    border-radius: 12px;
+    border-radius: 10px;
     cursor: pointer;
     outline: none;
   }
