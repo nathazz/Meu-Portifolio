@@ -1,4 +1,4 @@
-
+@import url("/src/resp/response.css");
 
 .card_med{
     padding: 1em;
@@ -41,6 +41,7 @@
 .div_btn a {
     text-decoration: none;
 }
+
 .btn_med{
    background-color: #002B51;
    border: none;

@@ -12,7 +12,7 @@ const CardMed = () => {
          <div className="card_med">
 
          <div className="div-imagem">
-            <img className="img-med" src="/svg/iconsCard/medtime.svg" alt="icon_med" />
+            <img className="img-proj" src="/svg/iconsCard/medtime.svg" alt="icon_med" />
           </div>
         
              <div>

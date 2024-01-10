@@ -1,38 +1,25 @@
-import { useState } from "react"
+import { useRef, useState } from "react"
 import "./Info.css"
 import { useTranslation } from "react-i18next"
-
+import { Overlay, OverlayTrigger } from "react-bootstrap";
+import { Tooltip } from "react-bootstrap";
 
 
 const Info = () => {
 
-    const [ t ] = useTranslation()
+     const [ t ] = useTranslation()
 
-    const [email, setEmail] = useState("")
+     const [show, setShow] = useState(false);
+     const target = useRef(null);
+    
 
-    const mudarE = () =>{
-        setEmail("nathansg907@gmail.com")
-    }
-
-    const deletarE = () =>{
-        setEmail('')
-    }
-
-    const alternarE = () => {
-        if (email === "") {
-          mudarE();
-        } else {
-          deletarE();
-        }
-      };
-
-
-      
      return(
         <section className="info" id="contato">
+
             <div className="d_h1">
-            <h1>{t("contact")}:</h1>
+            <h1>{t("contact")}</h1>
             </div>
+            
          <div className="div_info">
             
             <div>
@@ -53,8 +40,16 @@ const Info = () => {
            
             <div>
                      <h4 className="email">Email</h4>
-                     <img onClick={alternarE}  src="/svg/contato/email.svg" className="img_contato" alt="icon email/envelope" />
-                     <p className="p-info"   style={{borderBottom: email === "nathansg907@gmail.com" ? "2px solid #00D8FF" : ""}}>{email}</p>
+                     <img ref={target} onClick={() => setShow(!show)} src="/svg/contato/email.svg" className="img_contato" alt="icon email/envelope" />
+
+                    <Overlay target={target.current} show={show} placement="bottom">
+                        {(props) => (
+                        <Tooltip  id="tooltip" {...props}>
+                            nathansg907@gmail.com
+                        </Tooltip>
+                        )}
+                </Overlay>
+
             </div>
              
             </div>

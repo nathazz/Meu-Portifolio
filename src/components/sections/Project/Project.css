@@ -1,3 +1,5 @@
+@import url("/src/resp/response.css");
+
 .section_project {
     background-color: var(--CardProj);
     padding: 8em;

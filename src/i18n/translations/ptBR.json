@@ -10,7 +10,7 @@
         "history":"História",
         "text": "Comecei meus estudos na QI Faculdade & Escola Técnica, e foi lá que tive meu primeiro contato com a programação, o que despertou meu interesse e me fez gostar bastante da área. Tive a oportunidade de participar do programa nova geração do Instituto Caldeira, onde aprofundei meus estudos em JS/Java.  Atualmente, sou desenvolvedor fullstack e estou em busca da minha primeira experiência no mercado de trabalho.",
         "textCard_one": "É um app Android desenvolvido no Android Studio com Kotlin, focado em auxiliar usuários a lembrarem-se de tomar medicamentos corretamente. Possui funcionalidades CRUD em um banco de dados local.",
-        "textCard_two": "é um aplicativo que foi desenvolvido para a disciplina de Desenvolvimento de Aplicativos II, utilizando a linguagem Dart e o framework Flutter. O objetivo deste projeto é ajudar os usuários a encontrar oportunidades de trabalho em sua região.",
+        "textCard_two": "É um aplicativo que foi desenvolvido com a linguagem Dart e o framework Flutter. O objetivo deste projeto é ajudar os usuários a encontrar oportunidades de trabalho em sua região.",
         "textCard_trhee": "Desenvolvi um projeto simples utilizando o framework React, integrado com a biblioteca I18n para a troca dinâmica de idiomas. O projeto suporta os idiomas inglês, francês, português (BR) e espanhol."
     }
 

@@ -1,9 +1,10 @@
+
+@import url("/src/resp/response.css");
+
 .navbar{
     background-color:var(--nav);
     padding: 1.4em ;
     position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
     box-sizing: border-box;
     z-index: 1000;
@@ -27,7 +28,6 @@
 }
 
 .li{
-    display: block;
     color: var(--white);
     text-decoration: none;
     transition: 0.4s;
@@ -38,3 +38,24 @@
     color:var(--blueT);
     
 }
+
+.menu{
+    display: none;
+}
+
+.navigation{
+
+    display: none;
+}
+
+
+.list_nav{
+    background-color: #00000022;
+    font-size: 14px;
+    border-radius: 20px;
+    display: flex;
+    margin: 1.2em 5em; 
+    align-items: center;
+    flex-direction: column;
+    justify-content: right;
+}  
