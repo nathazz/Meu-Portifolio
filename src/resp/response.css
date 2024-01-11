@@ -1,5 +1,256 @@
 
-@media (max-width: 480px) {
+/*Smarth phone-Small*/
+
+@media (min-width: 320px) and (max-width: 480px ) {
+    
+  /*navbar*/
+
+  .menu{
+    display: block;
+    font-size: 20px;
+  }
+
+  .ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+    .navbar{
+      padding: 0.7em ;
+    }
+
+    .li {
+     display: none;
+    }
+
+    .navigation{
+      display: block;
+    
+    }
+   
+    .select-language {
+      font-size:11px;
+      border-radius: 10px;
+     
+    }
+
+    .liTwo{
+      display: block;
+      color: var(--white);
+      margin: 1em;
+      text-decoration: none;
+      font-family: var(--font);
+    }
+
+
+    /*Card Home*/
+
+    .img-logo{
+        width: 15%;
+    }
+
+    .card_home {
+      margin-top: 8em;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 10px;
+      align-items: center;
+      width: 86%;
+      height: 18em;
+ 
+    }
+    
+    
+    .card_content {
+      padding: 1.3em; 
+    }
+    
+    .img-logo {
+  
+      margin: 1.5em 0.8em 0 0;
+   
+    }
+    
+    .section_home{
+      height: 35em;
+      padding: 0.2em;
+    }
+
+    .card_home h1 {
+      font-size: 15px;
+    }
+    
+    .card_home p {
+      margin: 1em 0 0;
+      max-width: 40em; 
+      font-size: 14px;
+    }
+
+
+    /*History*/
+    
+    .section-history {
+      margin: 6em 0;
+      padding: 1em;
+    }
+  
+    
+    .div_h {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 0;
+    }
+
+    .h_h {
+      text-align: center;
+      font-size: 22px;
+      margin-bottom: 1em;
+    }
+
+    
+  
+    .p_h {
+      width: 96%;
+      margin: 0.8em;
+      margin-bottom: 5em;
+      font-size: 15px;
+    }
+
+    .img-h{
+      border-radius: 10px;
+      width: 220px;
+      height: 14em;
+    }
+
+    /*---Card Projetos---*/
+ 
+    .card_med{
+      padding: 1.8em;
+      width: 150%;
+      height: 21em;
+    }
+  
+    .cards_container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .p_med{
+    margin: 1em;
+    font-size: 13px;
+}
+
+.h_med{
+    text-align: center;
+    margin-bottom: 1.4em;
+}
+
+  .div-imagem{
+      margin: 0.8em;
+      display: flex;
+      justify-content: center;
+  }
+
+  .btn_med{
+    display: flex;
+    padding: 1em;
+  }
+
+#project{
+  margin-bottom: 3em;
+  font-size: 12px;
+
+
+}
+
+
+.img-proj{
+  width: 30%;
+}
+
+/*Contato*/
+
+.info {
+  background-color: #212B36;
+  padding: 4em;
+}
+
+.div_info {
+flex-wrap: nowrap;
+
+}
+
+.div_info img {
+  margin-left: 0;
+  width: 82%;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.div_info h2,h3,h4{
+display: none;
+}
+
+
+.info h1 {
+  color: #FFF;
+  margin-left: 0;
+  text-align: center;
+  font-family: var(--font);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+
+
+.img_contato{
+  margin: 1em 1.5em  ;
+}
+
+
+.p-info{
+font-size: 12px;
+font-family: var(--font);
+color: var(--white);
+font-style: normal;
+font-weight: 600; 
+line-height:initial;
+}
+
+#tooltip{
+font-size: 14px;
+}
+
+
+/* Footer */
+
+.footer{
+padding: 0.1em 0;
+background-color: #1F252C;
+}
+
+.h_footer{
+color: #FFF;
+font-family: var(--font);
+font-size: 11px;
+margin: 0.8em;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+}
+
+
+/*Smarth phone-Medium*/
+@media (min-width: 481px ) and (max-width: 767px) {
    
   /*navbar*/
 
@@ -85,6 +336,7 @@
         font-size: 14px;
       }
 
+
       /*History*/
       
       .section-history {
@@ -124,9 +376,9 @@
       /*Card Projetos*/
    
       .card_med{
-        padding: 1.8em;
-        width: 160%;
-        height: 23em;
+        padding: 1.2em;
+        width: 100%;
+        height: 21em;
       }
     
       .cards_container {
@@ -225,23 +477,541 @@
 }
 
 
+/* Footer */
+
+.footer{
+  padding: 0.1em 0;
+  background-color: #1F252C;
+}
+
+.h_footer{
+  color: #FFF;
+  font-family: var(--font);
+  font-size: 11px;
+  margin: 1em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
     
 }
 
-@media (min-width: 481px) and (max-width: 767px) {
-}
 
+
+
+/*Small tablets*/
 @media (min-width: 768px) and (max-width: 991px) {
 
+   /*navbar*/
+
+   .menu{
+    display: block;
+    font-size: 20px;
+  }
+
+  .ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+    .navbar{
+      padding: 0.8em ;
+    }
+
+    .li {
+      display: none;
+    }
+
+    .navigation{
+      display: block;
+    
+    }
+   
+    .select-language {
+      font-size:13px;
+      border-radius: 10px;
+     
+    }
+
+    .liTwo{
+      display: block;
+      color: var(--white);
+      margin: 1em;
+      text-decoration: none;
+      font-family: var(--font);
+    }
+
+
+    /*Card Home*/
+
+    .img-logo{
+      width:9%;
+    }
+
+    .card_home {
+      margin-top: 8em;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 10px;
+      align-items: center;
+      width: 84%;
+      height: 18em;
+ 
+    }
+    
+    
+    .card_content {
+      padding:2em; 
+    }
+    
+    .img-logo {
+  
+      margin: 1.5em 0.8em 0 0;
+   
+    }
+    
+    .section_home{
+      height: 35em;
+      padding: 0.2em;
+    }
+
+    .card_home h1 {
+      font-size: 18px;
+    }
+    
+    .card_home p {
+      margin: 1em 0 0;
+      max-width: 40em; 
+      font-size: 16px;
+    }
+
+
+    /*History*/
+    
+    .section-history {
+      margin: 3em 0;
+      padding: 5em;
+    }
+    
+    .div_h {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 0;
+    }
+
+    .h_h {
+      text-align: center;
+      font-size: 22px;
+      margin-bottom: 1em;
+    }
+
+    
+  
+    .p_h {
+      width: 96%;
+      margin: 0.8em;
+      margin-bottom: 5em;
+      font-size: 15px;
+    }
+
+    .img-h{
+      border-radius: 10px;
+      width: 220px;
+      height: 14em;
+    }
+
+    /*Card Projetos*/
+ 
+    .card_med{
+      padding: 1.2em;
+      width: 70%;
+      height: 20em;
+    }
+  
+    .cards_container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .p_med{
+    margin: 1.2em;
+    font-size: 14px;
+
 }
 
+.h_med{
+    text-align: center;
+    margin-bottom: 1.4em;
+}
+
+.div-imagem{
+    margin: 0.8em;
+    display: flex;
+    justify-content: center;
+}
+
+.btn_med{
+   display: flex;
+   padding: 1em;
+}
+
+#project{
+  margin-bottom: 3em;
+  font-size: 17px;
+
+}
+
+
+.img-proj{
+  width: 25%;
+}
+
+/*Contato*/
+
+.info {
+  background-color: #212B36;
+  padding: 4em;
+}
+
+.div_info {
+flex-wrap: nowrap;
+
+}
+
+.div_info img {
+  margin-left: 0;
+  width: 82%;
+margin-right: 10px;
+  cursor: pointer;
+}
+
+.div_info h2,h3,h4{
+display: none;
+}
+
+
+.info h1 {
+  color: #FFF;
+  margin-left: 0;
+  text-align: center;
+  font-family: var(--font);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+
+
+.img_contato{
+  margin: 1em 1.5em  ;
+}
+
+
+.p-info{
+font-size: 12px;
+font-family: var(--font);
+color: var(--white);
+font-style: normal;
+font-weight: 600; 
+line-height:initial;
+}
+
+#tooltip{
+font-size: 14px;
+}
+
+
+/* Footer */
+
+.footer{
+padding: 0.1em 0;
+background-color: #1F252C;
+}
+
+.h_footer{
+color: #FFF;
+font-family: var(--font);
+font-size: 11px;
+margin: 1em;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+  
+  
+
+}
+
+
+/*Large tablets/laptops*/
 @media (min-width: 992px) and (max-width: 1199px) {
 
+     /*navbar*/
+
+     .menu{
+      display: none;
+      font-size: 20px;
+    }
+  
+    .ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+  
+      .navbar{
+        padding: 0.8em ;
+      }
+  
+      .li {
+        display: none;
+      }
+  
+      .navigation{
+        display: block;
+      
+      }
+     
+      .select-language {
+        font-size:13px;
+        border-radius: 10px;
+       
+      }
+  
+      .liTwo{
+        display: block;
+        color: var(--white);
+        margin: 1em;
+        text-decoration: none;
+        font-family: var(--font);
+      }
+  
+  
+      /*Card Home*/
+  
+      .img-logo{
+          width:9%;
+      }
+  
+      .card_home {
+        margin-top: 8em;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+        align-items: center;
+        width: 70%;
+        height: 18em;
+   
+      }
+      
+      
+      .card_content {
+        padding:2em; 
+      }
+      
+      .img-logo {
+    
+        margin: 1.5em 0.8em 0 0;
+     
+      }
+      
+      .section_home{
+        height: 35em;
+        padding: 0.2em;
+      }
+  
+      .card_home h1 {
+        font-size: 18px;
+      }
+      
+      .card_home p {
+        margin: 1em 0 0;
+        max-width: 40em; 
+        font-size: 16px;
+      }
+  
+  
+      /*History*/
+      
+      .section-history {
+        margin: 3em 0;
+        padding: 5em;
+      }
+      
+      .div_h {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+      }
+  
+      .h_h {
+        text-align: center;
+        font-size: 22px;
+        margin-bottom: 1em;
+      }
+  
+      
+    
+      .p_h {
+        width: 96%;
+        margin: 0.8em;
+        margin-bottom: 5em;
+        font-size: 15px;
+      }
+  
+      .img-h{
+        border-radius: 10px;
+        width: 220px;
+        height: 14em;
+      }
+  
+      /*Card Projetos*/
+   
+      .card_med{
+        padding: 1.2em;
+        width: 55%;
+        height: 20em;
+      }
+    
+      .cards_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+  
+    .p_med{
+      margin: 1.2em;
+      font-size: 14px;
+  
+  }
+  
+  .h_med{
+      text-align: center;
+      margin-bottom: 1.4em;
+  }
+  
+  .div-imagem{
+      margin: 0.8em;
+      display: flex;
+      justify-content: center;
+  }
+  
+  .btn_med{
+     display: flex;
+     padding: 1em;
+  }
+  
+  #project{
+    margin-bottom: 3em;
+    font-size: 17px;
+  
+  }
+  
+  
+  .img-proj{
+    width: 20%;
+  }
+  
+  /*Contato*/
+  
+  .info {
+    background-color: #212B36;
+    padding: 4em;
+  }
+  
+  .div_info {
+  flex-wrap: nowrap;
+  
+  }
+  
+  .div_info img {
+    margin-left: 0;
+    width: 82%;
+  margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .div_info h2,h3,h4{
+  display: none;
+  }
+  
+  
+  .info h1 {
+    color: #FFF;
+    margin-left: 0;
+    text-align: center;
+    font-family: var(--font);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+  
+  
+  .img_contato{
+    margin: 1em 1.5em  ;
+  }
+  
+  
+  .p-info{
+  font-size: 12px;
+  font-family: var(--font);
+  color: var(--white);
+  font-style: normal;
+  font-weight: 600; 
+  line-height:initial;
+  }
+  
+  #tooltip{
+  font-size: 14px;
+  }
+  
+  
+  /* Footer */
+  
+  .footer{
+  padding: 0.1em 0;
+  background-color: #1F252C;
+  }
+  
+  .h_footer{
+  color: #FFF;
+  font-family: var(--font);
+  font-size: 11px;
+  margin: 1em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  }
+  
+    
+
 }
 
+/*Desktop*/
 @media (min-width: 1200px) and (max-width: 1919px) {
 
 }
 
+/*Large desktop*/
 @media (min-width: 1920px) {
 }
+
+
+
+
+
+
+
