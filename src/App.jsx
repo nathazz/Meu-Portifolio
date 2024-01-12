@@ -15,7 +15,6 @@ const App = () => {
      <Navbar/>
      <Home/>
      <History/>
-    
      <Project />
      <Info/>
      <Footer/>

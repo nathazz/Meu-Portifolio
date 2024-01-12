@@ -1,9 +1,5 @@
-
-
-
 import "./History.css"
 import { useTranslation } from "react-i18next"
-
 
 const History = () => {
 

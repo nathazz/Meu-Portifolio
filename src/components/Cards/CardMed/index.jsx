@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import "./Cards.css"
 import { FaGithub } from "react-icons/fa";
+import MedIcon from '/Meu-Portifolio/svg/iconsCard/medtime.svg?url'
 
 const CardMed = () => {
 
@@ -12,7 +13,7 @@ const CardMed = () => {
          <div className="card_med">
 
          <div className="div-imagem">
-            <img className="img-proj" src="/svg/iconsCard/medtime.svg" alt="icon_med" />
+            <img className="img-proj" src={MedIcon} alt="icon_med" />
           </div>
         
              <div>

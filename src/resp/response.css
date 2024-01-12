@@ -1,10 +1,6 @@
-
 /*Smarth phone-Small*/
-
 @media (min-width: 320px) and (max-width: 480px ) {
-    
   /*navbar*/
-
   .menu{
     display: block;
     font-size: 20px;
@@ -43,11 +39,10 @@
       font-family: var(--font);
     }
 
-
     /*Card Home*/
 
     .img-logo{
-        width: 15%;
+        width: 14%;
     }
 
     .card_home {
@@ -60,7 +55,6 @@
       height: 18em;
  
     }
-    
     
     .card_content {
       padding: 1.3em; 
@@ -87,15 +81,12 @@
       font-size: 14px;
     }
 
-
     /*History*/
-    
     .section-history {
       margin: 6em 0;
       padding: 1em;
     }
   
-    
     .div_h {
       display: flex;
       flex-direction: column;
@@ -110,8 +101,6 @@
       margin-bottom: 1em;
     }
 
-    
-  
     .p_h {
       width: 96%;
       margin: 0.8em;
@@ -126,11 +115,10 @@
     }
 
     /*---Card Projetos---*/
- 
     .card_med{
       padding: 1.8em;
       width: 150%;
-      height: 21em;
+      height: 20em;
     }
   
     .cards_container {
@@ -168,13 +156,11 @@
 
 }
 
-
 .img-proj{
-  width: 30%;
+  width: 25%;
 }
 
 /*Contato*/
-
 .info {
   background-color: #212B36;
   padding: 4em;
@@ -196,7 +182,6 @@ flex-wrap: nowrap;
 display: none;
 }
 
-
 .info h1 {
   color: #FFF;
   margin-left: 0;
@@ -208,12 +193,9 @@ display: none;
   line-height: normal;
 }
 
-
-
 .img_contato{
   margin: 1em 1.5em  ;
 }
-
 
 .p-info{
 font-size: 12px;
@@ -228,9 +210,7 @@ line-height:initial;
 font-size: 14px;
 }
 
-
 /* Footer */
-
 .footer{
 padding: 0.1em 0;
 background-color: #1F252C;
@@ -245,15 +225,12 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
-
 }
-
 
 /*Smarth phone-Medium*/
 @media (min-width: 481px ) and (max-width: 767px) {
    
   /*navbar*/
-
     .menu{
       display: block;
       font-size: 20px;
@@ -291,10 +268,8 @@ line-height: normal;
         text-decoration: none;
         font-family: var(--font);
       }
-  
 
       /*Card Home*/
-
       .img-logo{
           width: 15%;
       }
@@ -309,8 +284,7 @@ line-height: normal;
         height: 18em;
    
       }
-      
-      
+    
       .card_content {
         padding: 1.3em; 
       }
@@ -338,7 +312,6 @@ line-height: normal;
 
 
       /*History*/
-      
       .section-history {
         margin: 6em 0;
         padding: 1em;
@@ -358,8 +331,6 @@ line-height: normal;
         margin-bottom: 1em;
       }
 
-      
-    
       .p_h {
         width: 96%;
         margin: 0.8em;
@@ -374,7 +345,6 @@ line-height: normal;
       }
 
       /*Card Projetos*/
-   
       .card_med{
         padding: 1.2em;
         width: 100%;
@@ -416,13 +386,11 @@ line-height: normal;
 
   }
 
- 
   .img-proj{
     width: 30%;
   }
 
   /*Contato*/
-
   .info {
     background-color: #212B36;
     padding: 4em;
@@ -444,7 +412,6 @@ line-height: normal;
   display: none;
 }
 
-
 .info h1 {
     color: #FFF;
     margin-left: 0;
@@ -456,12 +423,9 @@ line-height: normal;
     line-height: normal;
 }
 
-
-
 .img_contato{
     margin: 1em 1.5em  ;
 }
-
 
 .p-info{
   font-size: 12px;
@@ -476,9 +440,7 @@ line-height: normal;
  font-size: 14px;
 }
 
-
 /* Footer */
-
 .footer{
   padding: 0.1em 0;
   background-color: #1F252C;
@@ -493,18 +455,12 @@ line-height: normal;
   font-weight: 400;
   line-height: normal;
 }
-
-    
 }
-
-
-
 
 /*Small tablets*/
 @media (min-width: 768px) and (max-width: 991px) {
 
    /*navbar*/
-
    .menu{
     display: block;
     font-size: 20px;
@@ -545,7 +501,6 @@ line-height: normal;
 
 
     /*Card Home*/
-
     .img-logo{
       width:9%;
     }
@@ -560,7 +515,6 @@ line-height: normal;
       height: 18em;
  
     }
-    
     
     .card_content {
       padding:2em; 
@@ -589,7 +543,6 @@ line-height: normal;
 
 
     /*History*/
-    
     .section-history {
       margin: 3em 0;
       padding: 5em;
@@ -609,8 +562,6 @@ line-height: normal;
       margin-bottom: 1em;
     }
 
-    
-  
     .p_h {
       width: 96%;
       margin: 0.8em;
@@ -625,7 +576,6 @@ line-height: normal;
     }
 
     /*Card Projetos*/
- 
     .card_med{
       padding: 1.2em;
       width: 70%;
@@ -667,13 +617,11 @@ line-height: normal;
 
 }
 
-
 .img-proj{
   width: 25%;
 }
 
 /*Contato*/
-
 .info {
   background-color: #212B36;
   padding: 4em;
@@ -695,7 +643,6 @@ margin-right: 10px;
 display: none;
 }
 
-
 .info h1 {
   color: #FFF;
   margin-left: 0;
@@ -707,12 +654,9 @@ display: none;
   line-height: normal;
 }
 
-
-
 .img_contato{
   margin: 1em 1.5em  ;
 }
-
 
 .p-info{
 font-size: 12px;
@@ -743,43 +687,13 @@ margin: 1em;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+  }
 }
-
-  
-  
-
-}
-
 
 /*Large tablets/laptops*/
 @media (min-width: 992px) and (max-width: 1199px) {
 
      /*navbar*/
-
-     .menu{
-      display: none;
-      font-size: 20px;
-    }
-  
-    .ul {
-      display: flex;
-      justify-content: space-between;
-      align-items: baseline;
-    }
-  
-      .navbar{
-        padding: 0.8em ;
-      }
-  
-      .li {
-        display: none;
-      }
-  
-      .navigation{
-        display: block;
-      
-      }
-     
       .select-language {
         font-size:13px;
         border-radius: 10px;
@@ -794,9 +708,7 @@ line-height: normal;
         font-family: var(--font);
       }
   
-  
       /*Card Home*/
-  
       .img-logo{
           width:9%;
       }
@@ -811,7 +723,6 @@ line-height: normal;
         height: 18em;
    
       }
-      
       
       .card_content {
         padding:2em; 
@@ -838,9 +749,7 @@ line-height: normal;
         font-size: 16px;
       }
   
-  
       /*History*/
-      
       .section-history {
         margin: 3em 0;
         padding: 5em;
@@ -860,13 +769,11 @@ line-height: normal;
         margin-bottom: 1em;
       }
   
-      
-    
       .p_h {
         width: 96%;
         margin: 0.8em;
         margin-bottom: 5em;
-        font-size: 15px;
+        font-size: 18px;
       }
   
       .img-h{
@@ -874,9 +781,16 @@ line-height: normal;
         width: 220px;
         height: 14em;
       }
+
+      /*Contato*/
+
+      .info h1 {
+        font-size: 25px;
+        margin: 0 0 3em 0;
+    }
+    
   
       /*Card Projetos*/
-   
       .card_med{
         padding: 1.2em;
         width: 55%;
@@ -893,8 +807,7 @@ line-height: normal;
     .p_med{
       margin: 1.2em;
       font-size: 14px;
-  
-  }
+    }
   
   .h_med{
       text-align: center;
@@ -915,72 +828,13 @@ line-height: normal;
   #project{
     margin-bottom: 3em;
     font-size: 17px;
-  
   }
-  
-  
+
   .img-proj{
     width: 20%;
   }
-  
-  /*Contato*/
-  
-  .info {
-    background-color: #212B36;
-    padding: 4em;
-  }
-  
-  .div_info {
-  flex-wrap: nowrap;
-  
-  }
-  
-  .div_info img {
-    margin-left: 0;
-    width: 82%;
-  margin-right: 10px;
-    cursor: pointer;
-  }
-  
-  .div_info h2,h3,h4{
-  display: none;
-  }
-  
-  
-  .info h1 {
-    color: #FFF;
-    margin-left: 0;
-    text-align: center;
-    font-family: var(--font);
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-  }
-  
-  
-  
-  .img_contato{
-    margin: 1em 1.5em  ;
-  }
-  
-  
-  .p-info{
-  font-size: 12px;
-  font-family: var(--font);
-  color: var(--white);
-  font-style: normal;
-  font-weight: 600; 
-  line-height:initial;
-  }
-  
-  #tooltip{
-  font-size: 14px;
-  }
-  
-  
+
   /* Footer */
-  
   .footer{
   padding: 0.1em 0;
   background-color: #1F252C;
@@ -995,23 +849,157 @@ line-height: normal;
   font-weight: 400;
   line-height: normal;
   }
-  
-    
-
 }
 
 /*Desktop*/
 @media (min-width: 1200px) and (max-width: 1919px) {
 
+        /*Card Home*/
+        .img-logo{
+            width:9%;
+        }
+    
+        .card_home {
+          border-radius: 10px;
+          width: 80%;
+          height: 20em;
+     
+        }
+        
+        .card_content {
+          padding:2em; 
+        }
+        
+        .img-logo {
+      
+          margin: 1.5em 0.8em 0 0;
+       
+        }
+        
+        .section_home{
+          height: 25em;
+          padding: 10em;
+        }
+    
+        .card_home h1 {
+          font-size: 18px;
+        }
+        
+        .card_home p {
+          margin: 1em 0 0;
+          max-width: 40em; 
+          font-size: 16px;
+        }
+
+        /*History*/
+        .p_h {
+     
+          font-size: 17px;
+        }
+    
+        .img-h{ 
+          border-radius: 10px;
+        }
+    
+        /*Card Projetos*/
+        .card_med{
+          padding: 1.2em;
+          width: 55%;
+          height: 20em;
+        }
+      
+      .p_med{
+        margin: 1.2em;
+        font-size: 14px;
+    
+    }
+    
+    .h_med{
+        text-align: center;
+        margin-bottom: 1.4em;
+    }
+    
+    .div-imagem{
+        margin: 0.8em;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .btn_med{
+       display: flex;
+       padding: 1em;
+    }
+    
+    #project{
+      margin-bottom: 3em;
+      font-size: 23px;
+    
+    }
+    
+    .img-proj{
+      width: 20%;
+    }
+    
+    /*Contato*/
+
+    #tooltip{
+    font-size: 14px;
+    }
+
+    .info h1 {
+      font-size: 25px;
+      margin: 0 0 3em 0 ;
+  }
+
+    /* Footer */
+    .footer{
+    padding: 0.1em 0;
+    background-color: #1F252C;
+    }
+    
+    .h_footer{
+    color: #FFF;
+    font-family: var(--font);
+    font-size: 14px;
+    margin: 1em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+
 }
 
 /*Large desktop*/
 @media (min-width: 1920px) {
+
+  .card_med{
+    padding: 1.5em;
+    width: 20%;
+    height: 22em;
+  }
+
+  .card_home {
+    margin-top: 5em;
+    width: 60%;
+    height: 30em;
+  }
+
+  .h_h {
+    font-size: 30px;
+  }
+  
+  .p_h {
+    font-size: 25px;
+     width: 70%;
+  }
+
+  .section-history {
+    margin: 10em;
+    padding: 1em 0;
+  }
+
+  .info h1 {
+    font-size: 30px;
+    margin: 0 0 3em 10em ;
 }
-
-
-
-
-
-
-
+}
