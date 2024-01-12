@@ -22,7 +22,7 @@ const Navbar = () => {
     return(
 
     
-            <nav className="navbar">
+          <nav className="navbar">
           
           <ul className="ul">
           <LanguageBtn/>
@@ -38,7 +38,7 @@ const Navbar = () => {
           <ul className="list_nav">
             <a  className="liTwo"  href="#home"  onClick={hideNavigation}><li>Home</li></a>
             <a  className="liTwo"  href="#historia"  onClick={hideNavigation}><li >{t("history")}</li></a>
-            <a className="liTwo"href="#project"  onClick={hideNavigation}>Projetos</a>
+            <a className="liTwo"href="#project"  onClick={hideNavigation}>{t("projects")}</a>
             <a  className="liTwo" href="#contato"  onClick={hideNavigation}><li>{t("contact")}</li></a>
           </ul>
         
