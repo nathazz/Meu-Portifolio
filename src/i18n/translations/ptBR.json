@@ -13,7 +13,8 @@
         "textCard_one": "É um app Android desenvolvido no Android Studio com Kotlin, focado em auxiliar usuários a lembrarem-se de tomar medicamentos corretamente. Possui funcionalidades CRUD em um banco de dados local.",
         "textCard_two": "É um aplicativo que foi desenvolvido com a linguagem Dart e o framework Flutter. O objetivo deste projeto é ajudar os usuários a encontrar oportunidades de trabalho em sua região.",
         "textCard_trhee": "Desenvolvi um projeto simples utilizando o framework React, integrado com a biblioteca I18n para a troca dinâmica de idiomas. O projeto suporta os idiomas inglês, francês, português (BR) e espanhol.",
-        "project":"Meus projetos mais recentes"
+        "project":"Meus projetos mais recentes",
+        "rep":"Repositório"
     }
 
 }

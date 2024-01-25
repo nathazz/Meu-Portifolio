@@ -882,7 +882,7 @@ line-height: normal;
         }
     
         .card_home h1 {
-          font-size: 18px;
+          font-size: 20px;
         }
         
         .card_home p {
@@ -978,10 +978,18 @@ line-height: normal;
     height: 22em;
   }
 
+
+  .card_home h1 {
+    font-size: 30px;
+  }
+  
+  .card_home p {
+    font-size: 18px;
+  }
   .card_home {
-    margin-top: 5em;
-    width: 60%;
-    height: 30em;
+    margin-top: 6em;
+    width: 50%;
+    height: 29em;
   }
 
   .h_h {
@@ -997,6 +1005,12 @@ line-height: normal;
     margin: 10em;
     padding: 1em 0;
   }
+
+  .p_med{
+    font-size: 17px;
+}
+
+
 
   .info h1 {
     font-size: 30px;

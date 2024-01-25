@@ -20,9 +20,6 @@ const App = () => {
      <Footer/>
 
      </div>
-  
-    
-  
   )
 }
 

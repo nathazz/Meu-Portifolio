@@ -24,7 +24,7 @@ const CardTrampo = () => {
         </div>
         
          <div className="div_btn">
-         <a  href="https://github.com/nathazz/Projeto-Cade-Meu-Trampo" target="_blank"><button type="submit" className="btn_med btn_t"><FaGithub size={20} style={{marginRight:"1em"}} />Repositório</button></a>
+         <a  href="https://github.com/nathazz/Projeto-Cade-Meu-Trampo" target="_blank"><button type="submit" className="btn_med btn_t"><FaGithub size={20} style={{marginRight:"1em"}} />{t("rep")}</button></a>
          </div>
         
 
