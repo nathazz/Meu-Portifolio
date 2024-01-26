@@ -41,8 +41,6 @@ const Navbar = () => {
             <a className="liTwo"href="#project"  onClick={hideNavigation}>{t("projects")}</a>
             <a  className="liTwo" href="#contato"  onClick={hideNavigation}><li>{t("contact")}</li></a>
           </ul>
-        
-        
         </div>
       )}
  
