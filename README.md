@@ -1,4 +1,7 @@
-# Meu portifólio
+# Meu Portfólio
 
-Utilizei as seguintes ferraments:  **React JS**, **HTML**, **CSS**
-
+### Ferramentas Utilizadas:
+- **React JS**
+- **HTML**
+- **CSS**
+[Visualizar Portfólio](https://meu-portifolio-8bca8.web.app/)
