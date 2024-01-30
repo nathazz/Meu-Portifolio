@@ -6,7 +6,7 @@ const History = () => {
   const [t] = useTranslation()
 
   return(
-    <section id="historia" className="section-history">
+    <section id="history" className="section-history">
    
       <div  className="div_h">
 

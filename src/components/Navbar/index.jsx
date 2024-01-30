@@ -27,9 +27,9 @@ const Navbar = () => {
           <ul className="ul">
           <LanguageBtn/>
             <a  className="li"  href="#home"><li>Home</li></a>
-            <a  className="li"  href="#historia"><li >{t("history")}</li></a>
+            <a  className="li"  href="#history"><li >{t("history")}</li></a>
              <a className="li"href="#project">{t("projects")}</a>
-            <a  className="li" href="#contato"><li>{t("contact")}</li></a>
+            <a  className="li" href="#contact"><li>{t("contact")}</li></a>
             <GiHamburgerMenu className="menu" onClick={toggleNavigation}  style={{color: "white", backgroundColor:"transparent"}} />
          </ul>
 
@@ -37,9 +37,9 @@ const Navbar = () => {
         <div className='navigation'>
           <ul className="list_nav">
             <a  className="liTwo"  href="#home"  onClick={hideNavigation}><li>Home</li></a>
-            <a  className="liTwo"  href="#historia"  onClick={hideNavigation}><li >{t("history")}</li></a>
-            <a className="liTwo"href="#project"  onClick={hideNavigation}>{t("projects")}</a>
-            <a  className="liTwo" href="#contato"  onClick={hideNavigation}><li>{t("contact")}</li></a>
+            <a  className="liTwo"  href="#history"  onClick={hideNavigation}><li >{t("history")}</li></a>
+            <a className="liTwo"   href="#project"  onClick={hideNavigation}>{t("projects")}</a>
+            <a  className="liTwo"  href="#contact"  onClick={hideNavigation}><li>{t("contact")}</li></a>
           </ul>
         </div>
       )}

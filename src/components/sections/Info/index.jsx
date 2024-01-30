@@ -15,7 +15,7 @@ const Info = () => {
     
 
      return(
-        <section className="info" id="contato">
+        <section className="info" id="contact">
 
             <div className="d_h1">
             <h1>{t("contact")}</h1>
