@@ -1,11 +1,12 @@
 {
     "translation": {
  
-     "title":"Bonjour, bienvenue, je m'appelle ",
-     "sub":"Je suis un développeur fullstack et je me concentre actuellement sur l'étude",
-     "and": "de",
-     "subTwo":"mais je suis toujours ouvert à de nouveaux défis, ainsi qu'à apprendre à connaître d'autres outils!",
-     "titleTwo":"à propos de moi",
+     "title":"Bonjour, je suis Nathan",
+     "subTitle":"Développeur  Full Stack",
+     "sub":"Je me concentre actuellement sur l'étude,",
+     "andTwo": "et",
+     "subTwo":"mais je suis toujours ouvert à de nouveaux défis, ainsi qu'à l'apprentissage d'autres outils!",
+     "titleTwo":"Un peu de moi",
      "contact":"Contact",
      "history":"histoire",
      "projects":"Projets",
@@ -14,7 +15,9 @@
      "textCard_two": "est une application développée pour la discipline Application Development II, en utilisant le langage Dart et le framework Flutter. Le but de ce projet est d'aider les utilisateurs à trouver des opportunités d'emploi dans leur région.",
      "textCard_trhee": "J'ai développé un projet simple utilisant le framework React, intégré à la bibliothèque I18n pour un changement de langage dynamique. Le projet prend en charge l'anglais, le français, le portugais (BR) et l'espagnol.",
      "project":"Mes projets les plus récents",
-     "rep":"Référentiel"
-
+     "rep":"Référentiel",
+     "service":"Développement web",
+     "office": "Administration,  Documents, etc.",
+     "myS":"Mes Services"
     }
  }

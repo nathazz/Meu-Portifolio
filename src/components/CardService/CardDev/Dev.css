@@ -1,0 +1,37 @@
+.card_design{
+    padding: 1.5em;
+    width: 22%;
+    height: 16em;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    background-color: var(--white);
+}
+
+
+.p_d{
+    text-align: center;
+    margin: 1.2em;
+    font-size: 18px;
+    color: #9E9C9C;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.h_design{
+    text-align: center;
+    margin-bottom: 1.4em;
+    color: var(--black);
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: normal;
+}
+
+.div-image{
+    margin: 1.5em;
+    display: flex;
+    justify-content: center;
+}

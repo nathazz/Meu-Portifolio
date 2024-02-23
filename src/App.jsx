@@ -4,6 +4,7 @@ import Home from "./components/sections/Home"
 import Info from "./components/sections/Info"
 import Navbar from "./components/Navbar"
 import Project from "./components/sections/Project"
+import Service from "./components/sections/Service"
 
 
 
@@ -15,6 +16,7 @@ const App = () => {
      <Navbar/>
      <Home/>
      <History/>
+     <Service/>
      <Project />
      <Info/>
      <Footer/>

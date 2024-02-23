@@ -71,7 +71,7 @@
       padding: 0.2em;
     }
 
-    .card_home h1 {
+    .card_home h1, h2 {
       font-size: 15px;
     }
     
@@ -97,7 +97,7 @@
 
     .h_h {
       text-align: center;
-      font-size: 22px;
+      font-size: 18px;
       margin-bottom: 1em;
     }
 
@@ -105,15 +105,52 @@
       width: 96%;
       margin: 0.8em;
       margin-bottom: 5em;
-      font-size: 15px;
+      font-size: 14px;
     }
 
     .img-h{
-      border-radius: 10px;
-      width: 220px;
-      height: 14em;
+      width: 100%;
+      height: 12em;
     }
 
+    /*--Card Service*/
+    .card_design{
+      padding: 1em;
+      width: 58%;
+      height: 12em;
+    }
+  
+    .cards_cntD{
+      display: flex;
+      gap: 4em;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .h_design{
+      font-size: 14px;
+      margin-bottom: 0.3em;
+    }
+
+    .section-service h2{
+      font-size:18px;
+      text-shadow: none;
+      margin-bottom: 3em;
+    }
+
+    .p_d{
+      font-size: 13px;
+    }
+
+    .img-design{
+      width: 45%;
+    }
+
+    .img-office{
+      width: 30%;
+    }
+
+  
     /*---Card Projetos---*/
     .card_med{
       padding: 1.8em;
@@ -162,7 +199,6 @@
 
 /*Contato*/
 .info {
-  background-color: #212B36;
   padding: 4em;
 }
 
@@ -213,7 +249,6 @@ font-size: 14px;
 /* Footer */
 .footer{
 padding: 0.1em 0;
-background-color: #1F252C;
 }
 
 .h_footer{
@@ -300,14 +335,15 @@ line-height: normal;
         padding: 0.2em;
       }
 
-      .card_home h1 {
-        font-size: 15px;
+      .card_home h1,h2 {
+        font-size: 18px;
       }
-      
+
+    
       .card_home p {
         margin: 1em 0 0;
         max-width: 40em; 
-        font-size: 14px;
+        font-size: 13px;
       }
 
 
@@ -327,7 +363,7 @@ line-height: normal;
 
       .h_h {
         text-align: center;
-        font-size: 22px;
+        font-size: 21px;
         margin-bottom: 1em;
       }
 
@@ -335,14 +371,42 @@ line-height: normal;
         width: 96%;
         margin: 0.8em;
         margin-bottom: 5em;
-        font-size: 15px;
+        font-size: 14px;
       }
 
       .img-h{
-        border-radius: 10px;
         width: 220px;
         height: 14em;
       }
+
+        /*--Card Service*/
+    .card_design{
+      padding: 1em;
+      width: 58%;
+      height: 13em;
+    }
+  
+    .cards_cntD{
+      display: flex;
+      gap: 4em;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .h_design{
+      font-size: 14px;
+      margin-bottom: 0.3em;
+    }
+
+    .section-service h2{
+      font-size:18px;
+      text-shadow: none;
+      margin-bottom: 3em;
+    }
+
+    .p_d{
+      font-size: 13px;
+    }
 
       /*Card Projetos*/
       .card_med{
@@ -392,7 +456,6 @@ line-height: normal;
 
   /*Contato*/
   .info {
-    background-color: #212B36;
     padding: 4em;
 }
 
@@ -404,7 +467,7 @@ line-height: normal;
 .div_info img {
     margin-left: 0;
     width: 82%;
-  margin-right: 10px;
+     margin-right: 10px;
     cursor: pointer;
 }
 
@@ -437,13 +500,12 @@ line-height: normal;
 }
 
 #tooltip{
- font-size: 14px;
+ font-size: 12px;
 }
 
 /* Footer */
 .footer{
   padding: 0.1em 0;
-  background-color: #1F252C;
 }
 
 .h_footer{
@@ -531,14 +593,14 @@ line-height: normal;
       padding: 0.2em;
     }
 
-    .card_home h1 {
-      font-size: 18px;
+    .card_home h1,h2 {
+      font-size: 23px;
     }
     
     .card_home p {
       margin: 1em 0 0;
       max-width: 40em; 
-      font-size: 16px;
+      font-size: 15px;
     }
 
 
@@ -558,7 +620,7 @@ line-height: normal;
 
     .h_h {
       text-align: center;
-      font-size: 22px;
+      font-size: 21px;
       margin-bottom: 1em;
     }
 
@@ -570,10 +632,40 @@ line-height: normal;
     }
 
     .img-h{
-      border-radius: 10px;
       width: 220px;
       height: 14em;
     }
+
+         /*--Card Service*/
+         .card_design{
+          padding: 1em;
+          width: 58%;
+          height: 13em;
+        }
+      
+        .cards_cntD{
+          display: flex;
+          gap: 4em;
+          flex-direction: column;
+          align-items: center;
+        }
+    
+        .h_design{
+          font-size: 14px;
+          margin-bottom: 0.3em;
+        }
+    
+        .section-service h2{
+          font-size:18px;
+          text-shadow: none;
+          margin-bottom: 3em;
+        }
+    
+        .p_d{
+          font-size: 13px;
+        }
+    
+       
 
     /*Card Projetos*/
     .card_med{
@@ -623,7 +715,6 @@ line-height: normal;
 
 /*Contato*/
 .info {
-  background-color: #212B36;
   padding: 4em;
 }
 
@@ -676,7 +767,6 @@ font-size: 14px;
 
 .footer{
 padding: 0.1em 0;
-background-color: #1F252C;
 }
 
 .h_footer{
@@ -739,14 +829,14 @@ line-height: normal;
         padding: 0.2em;
       }
   
-      .card_home h1 {
-        font-size: 18px;
+      .card_home h1,h2 {
+        font-size: 20px;
       }
       
       .card_home p {
         margin: 1em 0 0;
         max-width: 40em; 
-        font-size: 16px;
+        font-size: 14px;
       }
   
       /*History*/
@@ -765,7 +855,7 @@ line-height: normal;
   
       .h_h {
         text-align: center;
-        font-size: 22px;
+        font-size: 20px;
         margin-bottom: 1em;
       }
   
@@ -773,11 +863,10 @@ line-height: normal;
         width: 96%;
         margin: 0.8em;
         margin-bottom: 5em;
-        font-size: 18px;
+        font-size: 16px;
       }
   
       .img-h{
-        border-radius: 10px;
         width: 220px;
         height: 14em;
       }
@@ -837,7 +926,6 @@ line-height: normal;
   /* Footer */
   .footer{
   padding: 0.1em 0;
-  background-color: #1F252C;
   }
   
   .h_footer{
@@ -882,7 +970,7 @@ line-height: normal;
         }
     
         .card_home h1 {
-          font-size: 20px;
+          font-size: 28px;
         }
         
         .card_home p {
@@ -897,14 +985,11 @@ line-height: normal;
           font-size: 17px;
         }
     
-        .img-h{ 
-          border-radius: 10px;
-        }
-    
         /*Card Projetos*/
+  
         .card_med{
           padding: 1.2em;
-          width: 55%;
+          width: 54%;
           height: 20em;
         }
       
@@ -954,7 +1039,6 @@ line-height: normal;
     /* Footer */
     .footer{
     padding: 0.1em 0;
-    background-color: #1F252C;
     }
     
     .h_footer{
@@ -986,11 +1070,16 @@ line-height: normal;
   .card_home p {
     font-size: 18px;
   }
+
   .card_home {
-    margin-top: 6em;
-    width: 50%;
-    height: 29em;
+    margin-top: 3em;
+    width: 56%;
+    height: 27em;
   }
+
+  .section_home{
+    padding: 12em ;
+}
 
   .h_h {
     font-size: 30px;
@@ -1011,9 +1100,8 @@ line-height: normal;
 }
 
 
-
   .info h1 {
-    font-size: 30px;
-    margin: 0 0 3em 10em ;
+    font-size: 25px;
+  
 }
 }
