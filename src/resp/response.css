@@ -1,5 +1,5 @@
 /*Smarth phone-Small*/
-@media (min-width: 320px) and (max-width: 489px ) {
+@media (min-width: 320px) and (max-width: 480px ) {
   /*navbar*/
   .menu{
     display: block;
@@ -275,7 +275,7 @@ line-height: normal;
 }
 
 /*Smarth phone-Medium*/
-@media (min-width: 490px ) and (max-width: 767px) {
+@media (min-width: 481px ) and (max-width: 767px) {
    
   /*navbar*/
     .menu{
@@ -323,11 +323,9 @@ line-height: normal;
 
       .card_home {
         margin-top: 8em;
-        margin-left: auto;
-        margin-right: auto;
         border-radius: 10px;
         align-items: center;
-        width: 86%;
+        width: 70%;
         height: 18em;
    
       }
@@ -337,9 +335,7 @@ line-height: normal;
       }
       
       .img-logo {
-    
         margin: 1.5em 0.8em 0 0;
-     
       }
       
       .section_home{
@@ -351,7 +347,6 @@ line-height: normal;
         font-size: 18px;
       }
 
-    
       .card_home p {
         margin: 1em 0 0;
         max-width: 40em; 
