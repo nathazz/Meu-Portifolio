@@ -12,7 +12,7 @@ const Service = () => {
 
         return(
 
-                <section className='section-service'>
+                <section id='service-id' className='section-service'>
               
                 <h2 className="h_service">{t('myS')}</h2>
                 <div className="cards_cntD">

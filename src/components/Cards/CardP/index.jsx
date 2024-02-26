@@ -12,7 +12,7 @@ const CardP = () => {
         <div className="card_med">
 
         <div className="div-imagem">
-           <img className="img-proj" src="/svg/iconsCard/react_card.svg" alt="icon_med" />
+           <img className="img-proj" src="/svg/iconsCard/react_card.svg" alt="icon_react" />
          </div>
        
             <div>

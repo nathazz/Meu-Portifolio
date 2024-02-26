@@ -1,5 +1,5 @@
 /*Smarth phone-Small*/
-@media (min-width: 320px) and (max-width: 480px ) {
+@media (min-width: 320px) and (max-width: 489px ) {
   /*navbar*/
   .menu{
     display: block;
@@ -114,42 +114,54 @@
     }
 
     /*--Card Service*/
-    .card_design{
-      padding: 1em;
-      width: 58%;
-      height: 12em;
+    .section-service h2{
+      font-size: 20px;
     }
-  
+
+    #service-id{
+      margin-bottom: 9em;
+    }
+
     .cards_cntD{
       display: flex;
-      gap: 4em;
+      gap: 3em;
       flex-direction: column;
+    
+    }
+
+    .card_design {
+      width: 82%;
+      height: 6em;
+      gap: 0;
+      display: flex;
       align-items: center;
     }
-
-    .h_design{
-      font-size: 14px;
-      margin-bottom: 0.3em;
+    
+    .div-image {
+      margin-right: 0.3em;
     }
-
-    .section-service h2{
-      font-size:18px;
-      text-shadow: none;
-      margin-bottom: 3em;
+    
+   
+    .img-design {
+      width: 2.8em;
     }
-
-    .p_d{
+    
+    .img-office {
+      width: 2.2em;
+    }
+  
+    .h_design {
+      font-size: 15px;
+      text-align: center;
+      margin-bottom: 1em;
+    }
+    
+    .p_d {
       font-size: 13px;
+      text-align: center; 
     }
 
-    .img-design{
-      width: 45%;
-    }
-
-    .img-office{
-      width: 30%;
-    }
-
+  
   
     /*---Card Projetos---*/
     .card_med{
@@ -263,7 +275,7 @@ line-height: normal;
 }
 
 /*Smarth phone-Medium*/
-@media (min-width: 481px ) and (max-width: 767px) {
+@media (min-width: 490px ) and (max-width: 767px) {
    
   /*navbar*/
     .menu{
@@ -368,8 +380,8 @@ line-height: normal;
       }
 
       .p_h {
-        width: 96%;
-        margin: 0.8em;
+        width: 86%;
+        margin: 2.5em;
         margin-bottom: 5em;
         font-size: 14px;
       }
@@ -379,12 +391,18 @@ line-height: normal;
         height: 14em;
       }
 
-        /*--Card Service*/
+    /*--Card Service*/
     .card_design{
       padding: 1em;
       width: 58%;
       height: 13em;
     }
+
+
+    #service-id{
+      margin-bottom: 9em;
+    }
+
   
     .cards_cntD{
       display: flex;
