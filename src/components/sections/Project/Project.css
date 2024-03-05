@@ -1,8 +1,7 @@
 @import url("/src/resp/response.css");
 
 .section_project {
-    background-color: var(--DivOn);
-    background-image: url("/svg/wallpaper.svg");
+    background-color:#333b46;
     padding: 8em;
     display: flex;
     flex-direction: column; 
