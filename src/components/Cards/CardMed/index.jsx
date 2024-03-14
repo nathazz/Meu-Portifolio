@@ -22,6 +22,7 @@ const CardMed = () => {
            
          <div className="d_p">
                 <p className="p_med">{t("textCard_one")}</p>
+      
          </div>
          
           <div className="div_btn">

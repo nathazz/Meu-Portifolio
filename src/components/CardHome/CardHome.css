@@ -11,6 +11,10 @@
   justify-content: center;
 }
 
+
+.data{
+  font-weight: 600;
+}
 .card_content {
   padding: 3em; 
 }
@@ -49,17 +53,13 @@
   text-align: left; 
 }
 
-.r {
-  color: var(--blue);
+
+.n, .aux, .r, .b{
+  
+  font-weight: 600;
 }
 
-.n {
-  color: var(--green);
-}
 
-.j {
-  color: var(--yellow);
-}
 
 .na{
   color: var(--blueT);
