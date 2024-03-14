@@ -19,8 +19,8 @@ const CardHome = () =>{
         <div className="icon_l">
         <a target="_blank" className="a-img" href="https://react.dev"><img className="img-logo" src="/svg/react70.svg" alt="logo_react" /></a>
         <a target="_blank" className="a-img" href="https://nodejs.org/en/learn/getting-started/introduction-to-nodejs"> <img className="img-logo" src="/svg/node70.svg" alt="logo_node" /></a>     
-        <img className="img-logo" src="/svg/mysql.svg" alt="icon mysql" />
-        <img className="img-logo" src="/svg/mongodb-icon.svg" alt="icon mongodb" />
+        <a target="_blank" href="https://www.mysql.com/"><img className="img-logo" src="/svg/mysql.svg" alt="icon mysql" /></a>
+       <a target="_blank" href="https://www.mongodb.com/pt-br"><img className="img-logo" src="/svg/mongodb-icon.svg" alt="icon mongodb" /></a>
         </div>
       </div>
     </div>
