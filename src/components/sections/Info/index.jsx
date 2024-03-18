@@ -30,7 +30,7 @@ const Info = () => {
 
             <div>
                 <h3 className="linkedin">Linkedin</h3>
-                <a href="https://www.linkedin.com/in/nathansg/" target="_blank"><img className="img_contato"  src="/svg/contato/linkedin.svg" alt="icon linkedin" /></a>
+                <a href="https://www.linkedin.com/in/nathan-silva-888a172ba/" target="_blank"><img className="img_contato"  src="/svg/contato/linkedin.svg" alt="icon linkedin" /></a>
             </div>
 
             <div>
