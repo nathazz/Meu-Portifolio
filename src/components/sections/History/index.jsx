@@ -25,7 +25,7 @@ const History = () => {
       <h1 className="h-history" >{t("title_about")} <span style={span}>{t("title_about_two")}</span></h1>
       <p className='p-history'>
    {t("about_one")} <a style={a} href="https://qi.edu.br/" target="_blank">{t("span_one")}</a>, {t("about_two")}
-       <br /> <br /> {t("about_trhee")} <span style={a}>linguagem Go (Golang)</span> {t("about_four")}
+       <br /> <br /> {t("about_trhee")} <span style={a}>{t("span_two")}</span> {t("about_four")}
         </p>
     </div>
 
