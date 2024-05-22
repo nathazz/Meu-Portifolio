@@ -22,7 +22,7 @@
 
     .navigation{
       display: block;
-    
+      justify-content: center;
     }
    
     .select-language {
@@ -40,78 +40,94 @@
     }
 
     /*Card Home*/
+    .div_init h1{
+      font-size: 17px;
+      text-wrap: nowrap;
+      color: white;
+      
+    }
+    
+    .perfil{
+      width: 12em;
+    }
 
-    .img-logo{
-        width: 14%;
+    .img-home{
+        width: 4em;
     }
+    
+    .div_init h2 {
+      text-wrap: nowrap;
+      font-size: 20px;
+      color: var(--blueHome);
+    }
+    
 
-    .card_home {
-      margin-top: 8em;
-      margin-left: auto;
-      margin-right: auto;
-      border-radius: 10px;
-      align-items: center;
-      width: 86%;
-      height: 18em;
- 
-    }
-    
-    .card_content {
-      padding: 1.3em; 
-    }
-    
-    .img-logo {
-  
-      margin: 1.5em 0.8em 0 0;
-   
-    }
-    
     .section_home{
-      height: 35em;
-      padding: 0.2em;
-    }
+      background-color: var(--DivOn);
+      background-image: url("/svg/wallpaper.svg");
+      padding: 7em ;
+  }
 
-    .card_home h1, h2 {
-      font-size: 15px;
-    }
-    
-    .card_home p {
-      margin: 1em 0 0;
-      max-width: 40em; 
-      font-size: 14px;
-    }
 
     /*History*/
     .section-history {
       margin: 6em 0;
       padding: 1em;
+      flex-direction: column;
     }
   
-    .div_h {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      margin: 0;
-    }
+   .h-history{
+    text-align: center;
+    font-size: 20px;
+   }
+ 
+   .div-history{
+    width: 85%;
+  }
 
-    .h_h {
-      text-align: center;
-      font-size: 18px;
-      margin-bottom: 1em;
-    }
+  .p-history{
+    font-size: 15px;
+  }
 
-    .p_h {
-      width: 96%;
-      margin: 0.8em;
-      margin-bottom: 5em;
-      font-size: 14px;
-    }
+  /* skills */
+  .skills{
+    width: 60%;
+    padding: 2em;
+    z-index: 1;
+  }
 
-    .img-h{
-      width: 100%;
-      height: 12em;
-    }
+  .h_skills{
+    font-size: 18px;
+  }
+  
+
+  .skills .b{
+    background-color: rgb(255, 255, 255);
+    display: block;
+    height: 20px;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: .5s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.b > span{
+    height: 20px;
+    background-color: #348A9E;
+    position: absolute;
+}
+
+.skills p {
+  font-size: 14px;
+}
+
+
+.h3{
+  display: block;
+  font-size: 14px;
+}
+
 
     /*--Card Service*/
     .section-service h2{
@@ -164,6 +180,9 @@
   
   
     /*---Card Projetos---*/
+    .h_project{
+     font-size: 20px;
+    }
     .card_med{
       padding: 1.8em;
       width: 150%;
@@ -184,8 +203,11 @@
 
 .h_med{
     text-align: center;
+    font-size: 16px;
     margin-bottom: 1.4em;
 }
+
+
 
   .div-imagem{
       margin: 0.8em;
@@ -200,9 +222,9 @@
 
 #project{
   margin-bottom: 3em;
-  font-size: 12px;
-
-
+  font-size: 16px;
+  width: 100%;
+  text-align: center;
 }
 
 .img-proj{
@@ -259,6 +281,11 @@ font-size: 14px;
 }
 
 /* Footer */
+
+.a-info{
+  font-size: 12px;
+}
+
 .footer{
 padding: 0.1em 0;
 }
@@ -281,6 +308,7 @@ line-height: normal;
     .menu{
       display: block;
       font-size: 20px;
+ 
     }
 
     .ul {
@@ -288,19 +316,21 @@ line-height: normal;
       justify-content: space-between;
       align-items: baseline;
     }
+
+
       .navbar{
         padding: 0.8em ;
       }
 
       .li {
         display: none;
-       font-size: 5px;
       }
 
-      .navigation{
-        display: block;
-      
-      }
+  
+
+
+/* Estilos para o menu de navegação */
+
      
       .select-language {
         font-size:11px;
@@ -308,88 +338,117 @@ line-height: normal;
        
       }
 
+      .navigation{
+        display: block;
+        display: flex;
+        justify-content: center;
+      }
+
       .liTwo{
         display: block;
         color: var(--white);
-        margin: 1em;
+        margin: 1.3em;
+        font-weight: 600;
         text-decoration: none;
         font-family: var(--font);
+        transition: 0.3s;
+      }
+
+      .liTwo:hover{
+        transition: 0.3s;
+       color: #3894a492;
       }
 
       /*Card Home*/
-      .img-logo{
-          width: 15%;
-      }
-
-      .card_home {
-        margin-top: 8em;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 10px;
-        align-items: center;
-        width: 86%;
-        height: 18em;
-   
-      }
-    
-      .card_content {
-        padding: 1.3em; 
+      .div_init h1{
+        font-size: 17px;
+        text-wrap: nowrap;
+        color: white;
+        
       }
       
-      .img-logo {
-    
-        margin: 1.5em 0.8em 0 0;
-     
+      .perfil{
+        width: 12em;
+      }
+  
+      .img-home{
+          width: 4em;
       }
       
+      .div_init h2 {
+        text-wrap: nowrap;
+        font-size: 20px;
+        color: var(--blueHome);
+      }
+      
+  
       .section_home{
-        height: 35em;
-        padding: 0.2em;
-      }
-
-      .card_home h1,h2 {
-        font-size: 18px;
-      }
-
-    
-      .card_home p {
-        margin: 1em 0 0;
-        max-width: 40em; 
-        font-size: 13px;
-      }
+        background-color: var(--DivOn);
+        background-image: url("/svg/wallpaper.svg");
+        padding: 7em ;
+    }
+  
 
 
-      /*History*/
-      .section-history {
-        margin: 6em 0;
-        padding: 1em;
-      }
-      
-      .div_h {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin: 0;
-      }
+       /*History*/
+    .section-history {
+      margin: 6em 0;
+      padding: 1em;
+      flex-direction: column;
+    }
+  
+   .h-history{
+    text-align: center;
+    font-size: 20px;
+   }
+ 
+   .div-history{
+    width: 85%;
+  }
 
-      .h_h {
-        text-align: center;
-        font-size: 21px;
-        margin-bottom: 1em;
-      }
+  .p-history{
+    font-size: 15px;
+  }
 
-      .p_h {
-        width: 96%;
-        margin: 0.8em;
-        margin-bottom: 5em;
-        font-size: 14px;
-      }
+  /* skills */
+  .skills{
+    width: 50%;
+    padding: 2em;
+    z-index: 1;
+  }
 
-      .img-h{
-        width: 220px;
-        height: 14em;
-      }
+  .h_skills{
+    font-size: 18px;
+  }
+  
+
+  .skills .b{
+    background-color: rgb(255, 255, 255);
+    display: block;
+    height: 20px;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: .5s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.b > span{
+    height: 20px;
+    background-color: #348A9E;
+    position: absolute;
+}
+
+.skills p {
+  font-size: 14px;
+}
+
+
+.h3{
+  display: block;
+  font-size: 14px;
+}
+
 
     /*--Card Service*/
     .card_design{
@@ -546,6 +605,7 @@ line-height: normal;
     font-size: 20px;
   }
 
+ 
   .ul {
     display: flex;
     justify-content: space-between;
@@ -560,15 +620,19 @@ line-height: normal;
       display: none;
     }
 
+    .list_nav{
+      width: 60%;
+    }
     .navigation{
       display: block;
-    
+      display: flex;
+      justify-content: center;
     }
    
     .select-language {
       font-size:13px;
       border-radius: 10px;
-     
+  
     }
 
     .liTwo{
@@ -581,78 +645,97 @@ line-height: normal;
 
 
     /*Card Home*/
-    .img-logo{
-      width:9%;
+    .div_init h1{
+      font-size: 17px;
+      text-wrap: nowrap;
+      color: white;
+      
+    }
+    
+    .perfil{
+      width: 12em;
     }
 
-    .card_home {
-      margin-top: 8em;
-      margin-left: auto;
-      margin-right: auto;
-      border-radius: 10px;
-      align-items: center;
-      width: 84%;
-      height: 18em;
- 
+    .img-home{
+        width: 4em;
     }
     
-    .card_content {
-      padding:2em; 
+    .div_init h2 {
+      text-wrap: nowrap;
+      font-size: 20px;
+      color: var(--blueHome);
     }
     
-    .img-logo {
-  
-      margin: 1.5em 0.8em 0 0;
-   
-    }
-    
+
     .section_home{
-      height: 35em;
-      padding: 0.2em;
-    }
-
-    .card_home h1,h2 {
-      font-size: 23px;
-    }
-    
-    .card_home p {
-      margin: 1em 0 0;
-      max-width: 40em; 
-      font-size: 15px;
-    }
+      background-color: var(--DivOn);
+      background-image: url("/svg/wallpaper.svg");
+      padding: 7em ;
+  }
 
 
-    /*History*/
+  
+
+
+  /*History*/
     .section-history {
-      margin: 3em 0;
-      padding: 5em;
-    }
-    
-    .div_h {
-      display: flex;
+      margin: 6em 0;
+      padding: 1em;
       flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      margin: 0;
     }
+  
+   .h-history{
+    text-align: center;
+    font-size: 20px;
+   }
+ 
+   .div-history{
+    width: 70%;
+  }
 
-    .h_h {
-      text-align: center;
-      font-size: 21px;
-      margin-bottom: 1em;
-    }
+  .p-history{
+    font-size: 15px;
+  }
 
-    .p_h {
-      width: 96%;
-      margin: 0.8em;
-      margin-bottom: 5em;
-      font-size: 15px;
-    }
+  /* skills */
+  .skills{
+    width: 45%;
+    padding: 2em;
+    z-index: 1;
+  }
 
-    .img-h{
-      width: 220px;
-      height: 14em;
-    }
+  .h_skills{
+    font-size: 18px;
+  }
+  
+
+  .skills .b{
+    background-color: rgb(255, 255, 255);
+    display: block;
+    height: 20px;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: .5s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.b > span{
+    height: 20px;
+    background-color: #348A9E;
+    position: absolute;
+}
+
+.skills p {
+  font-size: 14px;
+}
+
+
+.h3{
+  display: block;
+  font-size: 14px;
+}
+
 
          /*--Card Service*/
          .card_design{
@@ -817,77 +900,96 @@ line-height: normal;
       }
   
       /*Card Home*/
-      .img-logo{
-          width:9%;
+      .div_init h1{
+        font-size: 20px;
+        text-wrap: nowrap;
+        color: white;
+        
+      }
+      
+      .perfil{
+        width: 12em;
       }
   
-      .card_home {
-        margin-top: 8em;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 10px;
-        align-items: center;
-        width: 70%;
-        height: 18em;
-   
+      .img-home{
+          width: 4em;
       }
       
-      .card_content {
-        padding:2em; 
+      .div_init h2 {
+        text-wrap: nowrap;
+        font-size: 20px;
+        color: var(--blueHome);
       }
       
-      .img-logo {
-    
-        margin: 1.5em 0.8em 0 0;
-     
-      }
-      
+  
       .section_home{
-        height: 35em;
-        padding: 0.2em;
-      }
+        background-color: var(--DivOn);
+        background-image: url("/svg/wallpaper.svg");
+        padding: 8em ;
+    }
   
-      .card_home h1,h2 {
-        font-size: 20px;
-      }
-      
-      .card_home p {
-        margin: 1em 0 0;
-        max-width: 40em; 
-        font-size: 14px;
-      }
   
+  
+
       /*History*/
-      .section-history {
-        margin: 3em 0;
-        padding: 5em;
-      }
-      
-      .div_h {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin: 0;
-      }
+    /* .section-history {
+      margin: 6em 0;
+      padding: 1em;
+      flex-direction: column;
+    } */
   
-      .h_h {
-        text-align: center;
-        font-size: 20px;
-        margin-bottom: 1em;
-      }
+   .h-history{
+    text-align: center;
+    font-size: 20px;
+   }
+ 
+   .div-history{
+    width: 75%;
+  }
+
+  .p-history{
+    font-size: 15px;
+  }
+
+  /* skills */
+  .skills{
+    width: 35%;
+    padding: 2em;
+    z-index: 1;
+  }
+
+  .h_skills{
+    font-size: 18px;
+  }
   
-      .p_h {
-        width: 96%;
-        margin: 0.8em;
-        margin-bottom: 5em;
-        font-size: 16px;
-      }
-  
-      .img-h{
-        width: 220px;
-        height: 14em;
-      }
+
+  .skills .b{
+    background-color: rgb(255, 255, 255);
+    display: block;
+    height: 20px;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: .5s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.b > span{
+    height: 20px;
+    background-color: #348A9E;
+    position: absolute;
+}
+
+.skills p {
+  font-size: 14px;
+}
+
+
+.h3{
+  display: block;
+  font-size: 14px;
+}
+
 
       /*Contato*/
 
@@ -900,7 +1002,7 @@ line-height: normal;
       /*Card Projetos*/
       .card_med{
         padding: 1.2em;
-        width: 55%;
+        width: 40%;
         height: 20em;
       }
     
@@ -936,6 +1038,37 @@ line-height: normal;
     margin-bottom: 3em;
     font-size: 17px;
   }
+
+  /*service*/
+
+.card_design {
+  padding: 1.5em;
+  width: 24%;
+  height: 15em;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: var(--white);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.p_d{
+  margin: 1.2em;
+  font-size: 17px;
+}
+
+.h_design{
+  margin-bottom: 1em;
+  font-size: 18px;
+ 
+}
+
+.div-image{
+  margin: 1.5em;
+  display: flex;
+  justify-content: center;
+}
 
   .img-proj{
     width: 20%;
@@ -1038,6 +1171,21 @@ line-height: normal;
       font-size: 23px;
     
     }
+
+    
+    /*service*/
+
+    .section-history {
+        margin-bottom: 5em;
+
+    }
+
+.card_design{
+  width: 21%;
+  height: 16em;
+}
+
+
     
     .img-proj{
       width: 20%;
@@ -1074,6 +1222,25 @@ line-height: normal;
 /*Large desktop*/
 @media (min-width: 1920px) {
 
+  
+.div_init h1{
+  color: white;
+  font-size: 30px;
+}
+
+.div_init h2 {
+  font-size: 35px;
+  color: var(--blueHome);
+}
+
+.img-home{
+  width: 6em;
+}
+
+.perfil{
+  width: 18em;
+}
+
   .card_med{
     padding: 1.5em;
     width: 20%;
@@ -1081,37 +1248,26 @@ line-height: normal;
   }
 
 
-  .card_home h1 {
-    font-size: 30px;
-  }
-  
-  .card_home p {
-    font-size: 18px;
-  }
-
-  .card_home {
-    margin-top: 3em;
-    width: 56%;
-    height: 27em;
-  }
-
   .section_home{
     padding: 12em ;
 }
 
-  .h_h {
-    font-size: 30px;
-  }
-  
-  .p_h {
-    font-size: 25px;
-     width: 70%;
-  }
 
-  .section-history {
-    margin: 10em;
-    padding: 1em 0;
-  }
+
+.h-history{
+  font-size: 30px;
+  margin-bottom:1em;
+}
+
+.p-history{
+    font-size: 18px;
+}
+
+
+.div-history{
+  width: 60%;
+}
+
 
   .p_med{
     font-size: 17px;

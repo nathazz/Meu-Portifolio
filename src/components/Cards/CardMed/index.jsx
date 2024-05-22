@@ -26,15 +26,13 @@ const CardMed = () => {
          </div>
          
           <div className="div_btn">
-          <a  href="https://github.com/nathazz/MedTime" target="_blank"><button type="submit" className="btn_med"><FaGithub size={20} style={{marginRight:"1em"}} />{t("rep")}</button></a>
+         <a  href="https://github.com/nathazz/MedTime" target="_blank"><button type="submit" className="btn_med"><FaGithub size={20} style={{marginRight:"1em"}} />{t("rep")}</button></a>
+           <button></button>
           </div>
          
 
          </div>
-           
-          
-   
-       
+         
     )
 }
 

@@ -14,7 +14,7 @@ const Service = () => {
 
                 <section id='service-id' className='section-service'>
               
-                <h2 className="h_service">{t('myS')}</h2>
+                <h1 className="h_service">{t('myS')}</h1>
                 <div className="cards_cntD">
                      <CardDesign/>
                     <CardDev/>

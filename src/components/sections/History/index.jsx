@@ -1,5 +1,18 @@
+import CardSkills from "../../CardSkills"
 import "./History.css"
 import { useTranslation } from "react-i18next"
+
+const a = {
+  fontWeight: '700',
+  color: 'black',
+  textDecoration: 'none'
+}
+
+const span = {
+  color:'#348A9E'
+}
+
+
 
 const History = () => {
 
@@ -8,18 +21,15 @@ const History = () => {
   return(
     <section id="history" className="section-history">
    
-      <div  className="div_h">
+    <div className="div-history"> 
+      <h1 className="h-history" >{t("title_about")} <span style={span}>{t("title_about_two")}</span></h1>
+      <p className='p-history'>
+   {t("about_one")} <a style={a} href="https://qi.edu.br/" target="_blank">{t("span_one")}</a>, {t("about_two")}
+       <br /> <br /> {t("about_trhee")} <span style={a}>linguagem Go (Golang)</span> {t("about_four")}
+        </p>
+    </div>
 
-        <div className="div_textos">
-          <h1  className="h_h">{t("titleTwo")}</h1>
-        <p className="p_h">{t("text")}</p>
-        </div>
-
-      <div className="div_perfil">
-      <img className="img-h" src="https://github.com/nathazz.png" width={310} />  
-      </div>
-    
-      </div>
+   <CardSkills/>
     
        
 

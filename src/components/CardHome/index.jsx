@@ -6,27 +6,24 @@ const CardHome = () =>{
 
     const { t } = useTranslation()
 
-     return(
+    return(
 
-      <div className="card_home">
-      <div className="card_content">
-        <h1>{t('title')} </h1>
-        <h2 className="h_stack"><span className="na">{t('subTitle')}</span></h2>
-        <p className="p_home">{t("sub")} <span className="r">React.js</span><span className="aux">, {t("aux")}</span> {t("tech")}
-         <span className="n"> Node.js</span>,
-        <strong className="b"> {t('database')}<span className="data">(MySQL/MongoDB)</span></strong>. {t("subTwo")}
-        </p>
-        <div className="icon_l">
-        <a target="_blank" className="a-img" href="https://react.dev"><img className="img-logo" src="/svg/react70.svg" alt="logo_react" /></a>
-        <a target="_blank" className="a-img" href="https://nodejs.org/en/learn/getting-started/introduction-to-nodejs"> <img className="img-logo" src="/svg/node70.svg" alt="logo_node" /></a>     
-        <a target="_blank" href="https://www.mysql.com/"><img className="img-logo" src="/svg/mysql.svg" alt="icon mysql" /></a>
-       <a target="_blank" href="https://www.mongodb.com/pt-br"><img className="img-logo" src="/svg/mongodb-icon.svg" alt="icon mongodb" /></a>
-        </div>
+      <div className="div_init">
+      <div className="text_container">
+        <img src="/svg/image.svg" alt="minha_foto" className="perfil" />
+        <h1 className="h-home">{t('title')}</h1>
+        <h2 className="h2-home">{t('subTitle')}</h2>
+      </div>
+      <div className="img_container">
+        <a href="https://react.dev/" target="_blank"><img className="img-home"  src="/svg/react70.svg" alt="icon-react" /></a>
+        <a href="https://nodejs.org/en" target="_blank" ><img className="img-home"  src="/svg/node70.svg"  alt="icon-node" /></a>
+        <a href="https://www.mongodb.com/" target="_blank" ><img className="img-home"  src="/svg/mongo.svg" alt="icon-mongo" /></a>
+        <a href="https://www.mysql.com/" target="_blank" ><img className="img-home"  src="/svg/mysql.svg"  alt="icon-mysql" /></a>
       </div>
     </div>
     
-     )
 
+    )
 }
 
 export default CardHome

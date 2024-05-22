@@ -8,6 +8,7 @@ import Service from "./components/sections/Service"
 
 
 
+
 const App = () => {
   
   
@@ -15,7 +16,7 @@ const App = () => {
     <div>
      <Navbar/>
      <Home/>
-     <History/>
+    <History/>
      <Service/>
      <Project />
      <Info/>

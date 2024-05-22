@@ -5,7 +5,7 @@ const CardDev = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="card_design">
+    <div className="card_design dev">
         <div className="div-image">
             <img
             className="img-design"
@@ -16,10 +16,10 @@ const CardDev = () => {
 
         <div className="content">
             <div>
-            <h1 className="h_design">{t("service")}</h1>
+            <h1 className="h_design h-dev">{t("service")}</h1>
             </div>
 
-            <p className="p_d">Landing pages, API, Front-end, Back-end.</p>
+            <p className="p_d p-dev">Landing pages, API,<br></br> Front-end, Back-end.</p>
         </div>
     </div>
   );

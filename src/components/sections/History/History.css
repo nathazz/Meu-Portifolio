@@ -1,39 +1,25 @@
+@import url("/src/resp/response.css");
+
 .section-history {
-    margin: 5em;
-    padding: 1em 0;
-  
-  }
-  
-  .div_h {
-    
+    padding: 10em ;
+    gap: 3em;
     display: flex;
-    margin: 5em;
-  }
-  
-  .h_h {
-    color: #222831;
-    font-family: Poppins;
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 600;
-    margin-bottom: 1em;
-    line-height: normal;
-   
-  }
-  
-  .p_h {
-    color: #000;
-    font-family: Poppins;
-    font-size: 18px;
-    width: 83%;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    justify-self: center;
+    align-items: center;
   }
 
-  .img-h{
-    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%
+  .h-history{
+    font-size: 30px;
+    margin-bottom:1em;
+  }
+
+  .p-history{
+      font-size: 17px;
   }
   
- 
-  
+
+  .div-history{
+    width: 60%;
+  }
+
+
