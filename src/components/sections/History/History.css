@@ -1,25 +1,18 @@
 @import url("/src/resp/response.css");
 
 .section-history {
-    padding: 10em ;
-    gap: 3em;
-    display: flex;
-    justify-self: center;
-    align-items: center;
-  }
+  padding: 8em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
-  .h-history{
-    font-size: 30px;
-    margin-bottom:1em;
-  }
-
-  .p-history{
-      font-size: 17px;
-  }
-  
-
-  .div-history{
-    width: 60%;
-  }
-
-
+.h-history {
+  margin-bottom: 2em;
+}
+.p-history {
+  margin: 0;
+  max-width: 70%; 
+  font-size: 17px;
+}
