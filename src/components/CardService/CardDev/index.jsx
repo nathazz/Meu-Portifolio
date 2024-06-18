@@ -11,6 +11,7 @@ const CardDev = () => {
             className="img-design"
             src="/svg/iconsService/code.svg"
             alt="icon code"
+            loading="lazy"
             />
         </div>
 

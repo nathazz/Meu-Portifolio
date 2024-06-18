@@ -13,15 +13,17 @@
         "about_trhee":"Tenho experiência com JavaScript, Node.js e MySQl/MongoDB, criando projetos que me permitiram aplicar meus conhecimentos em situações práticas. Recentemente, comecei a estudar a",
         "about_four":"para expandir ainda mais minhas competências. Sinta-se à vontade para conferir meus projetos no portfólio e entrar em contato.",
         "span_one":"QI Faculdade & Escola Técnica",
-        "span_two":"linguagem Go (Golang)",
+        "span_two":"linguagem Java (Java)",
         "textCard_one": "É um app Android desenvolvido no Android Studio com Kotlin, focado em auxiliar usuários a lembrarem-se de tomar medicamentos corretamente.",
         "textCard_two": "É um aplicativo que foi desenvolvido com a linguagem Dart e o framework Flutter. O objetivo deste projeto é ajudar os usuários a encontrar oportunidades de trabalho em sua região.",
         "textCard_trhee": "Desenvolvi um projeto simples utilizando o framework React, integrado com a biblioteca I18n para a troca dinâmica de idiomas. O projeto contém os seguintes idiomas: inglês e português (BR)",
         "project":"Meus projetos mais recentes",
         "rep":"Repositório",
         "service":"Desenvolvimento Web",
-        "office": "Admnistração, Documentos, etc.",
-        "myS":"Meus Serviços"
+        "office": "Desenvolvedor de aplicativos",
+        "myS":"Meus Serviços",
+        "title_api": "Desenvolvimento de API'S",
+        "text_api":"Integrações para sistemas Web"
     }
 
 }

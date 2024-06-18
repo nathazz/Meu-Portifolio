@@ -47,7 +47,7 @@ const Info = () => {
                     <Overlay target={target.current} show={show} placement="bottom">
                         {(props) => (
                         <Tooltip  id="tooltip" {...props}>
-                          <a className="a-info"  href="mailto:nathansg907@gmail.com">nathansg907@gmail.com</a> 
+                          <a className="a-info" target="_blank"  href="mailto:nathansg907@gmail.com">nathansg907@gmail.com</a> 
                    </Tooltip>
                         )}
                 </Overlay>

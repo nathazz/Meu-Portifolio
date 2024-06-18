@@ -9,17 +9,18 @@ const CardOffice = () => {
             <div className="div-image">
                 <img
                 className="img-office"
-                src="/svg/iconsService/office2.svg"
+                src="/svg/iconsService/cell.svg"
                 alt="icon office"
+                loading="lazy"
                 />
             </div>
 
             <div className="content">
                 <div>
-                <h1 className="h_design">Microsoft Office</h1>
+                <h1 className="h_design">{t('office')}</h1>
                 </div>
 
-                <p className="p_d">{t("office")}</p>
+                <p className="p_d">Android e IOS</p>
             </div>
             </div>
   );
